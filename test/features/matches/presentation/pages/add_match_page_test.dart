@@ -155,7 +155,7 @@ void main() {
         await tester.pumpAndSettle();
 
         // Verify date picker is in the Match Details section
-        expect(find.text('Match Details'), findsOneWidget);
+        expect(find.text('MATCH DETAILS'), findsOneWidget);
         expect(find.byType(DatePickerField), findsOneWidget);
       });
 

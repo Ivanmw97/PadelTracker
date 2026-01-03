@@ -5,4 +5,8 @@
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
+  // Placeholder test to prevent empty test file error
+  test('placeholder test', () {
+    expect(true, true);
+  });
 }

@@ -136,7 +136,7 @@ class _MatchDetailPageState extends ConsumerState<MatchDetailPage> {
 
 
   Widget _buildViewMode() {
-    // Get the current match from provider to ensure we show updated data
+    // Get the current match from provider
     final matchesState = ref.watch(matchesProvider);
     final currentMatch = matchesState.matches.firstWhere(
       (m) => m.id == widget.match.id,
