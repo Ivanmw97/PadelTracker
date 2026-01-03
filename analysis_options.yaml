@@ -1,0 +1,10 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    avoid_print: false # útil en debug
+    prefer_single_quotes: true
+    always_use_package_imports: false
+    unnecessary_this: true
+    avoid_unused_parameters: true
+    sort_child_properties_last: true

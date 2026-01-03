@@ -1,0 +1,416 @@
+{
+  "@@locale": "it",
+
+  "appTitle": "Padel Tracker",
+
+  "homeTitle": "Home",
+  "myMatchesTitle": "Le mie partite",
+  "statsTitle": "Statistiche",
+  "addMatchTitle": "Aggiungi partita",
+
+  "cancel": "Annulla",
+  "saveMatch": "Salva partita",
+  "newMatch": "+ Nuova partita",
+
+  "matchDetails": "Dettagli della partita",
+  "matchType": "Tipo di partita",
+  "playingSide": "Lato di gioco",
+
+  "players": "Giocatori",
+  "partnerName": "Nome del partner",
+  "opponent1Name": "Nome avversario 1",
+  "opponent2Name": "Nome avversario 2",
+
+  "additionalDetails": "Dettagli aggiuntivi",
+  "location": "Luogo",
+  "locationHint": "es. Club Padel",
+
+  "hours": "Ore",
+  "minutes": "Minuti",
+
+  "sets": "Set",
+  "performanceRating": "Valutazione della prestazione",
+
+  "matchTypeFriendly": "AMICHEVOLE",
+  "matchTypeLeague": "LEGA",
+  "matchTypeTournament": "TORNEO",
+
+  "playingSideRight": "DESTRA",
+  "playingSideLeft": "SINISTRA",
+
+  "matchTypeFriendlyDisplay": "Amichevole",
+  "matchTypeLeagueDisplay": "Lega",
+  "matchTypeTournamentDisplay": "Torneo",
+
+  "win": "Vittoria",
+  "loss": "Sconfitta",
+  "draw": "Pareggio",
+
+  "noMatchesYet": "Nessuna partita ancora",
+  "startTrackingJourney": "Inizia a tracciare il tuo percorso nel padel",
+
+  "noMatchesInPeriod": "Nessuna partita in questo periodo",
+  "tryDifferentTimeRange": "Prova a selezionare un intervallo di tempo diverso",
+
+  "tapToAddFirstMatch": "Tocca + per aggiungere la tua prima partita",
+
+  "tryDifferentTimeRangeStats": "Prova a selezionare un intervallo di tempo diverso per vedere le statistiche",
+  "addMatchesToSeeStats": "Aggiungi alcune partite per vedere le statistiche",
+
+  "matchesCount": "{count} partite",
+
+  "matchDeleted": "Partita eliminata",
+  "undo": "Annulla",
+  "retry": "Riprova",
+
+  "error": "Errore: {message}",
+
+  "atLeastOneSetRequired": "È richiesto almeno un set",
+  "officialMatchesMustHaveWinner": "Le partite ufficiali devono avere un vincitore (al meglio dei 3 set)",
+
+  "yourMatchResultsSoFar": "I tuoi risultati finora",
+  "seeHowPerformingOverall": "Scopri come stai andando complessivamente",
+
+  "typesOfMatchesPlayMost": "I tipi di partite che giochi più spesso",
+
+  "howPerformingRecently": "Come stai andando di recente",
+  "consistencyCurrentForm": "La tua costanza e la forma attuale",
+
+  "youMostlyPlayFriendly": "Giochi principalmente partite amichevoli",
+  "youFocusOnLeague": "Ti concentri sulle partite di lega",
+  "youCompeteInTournaments": "Partecipi spesso ai tornei",
+
+  "yourMatchTypes": "I tuoi tipi di partita",
+
+  "resultsDistribution": "Distribuzione dei risultati",
+
+  "wins": "Vittorie",
+  "losses": "Sconfitte",
+  "draws": "Pareggi",
+
+  "noScore": "Nessun punteggio",
+
+  "navigationHome": "Home",
+  "navigationMatches": "Partite",
+  "navigationStats": "Statistiche",
+
+  "lastMonth": "Ultimo mese",
+  "lastThreeMonths": "Ultimi 3 mesi",
+  "lastYear": "Ultimo anno",
+  "allTime": "Tutto il periodo",
+
+  "duration": "Durata",
+  "notSet": "Non impostato",
+
+  "yourPadelJourneyBeginsHere": "Il tuo percorso nel padel inizia qui",
+  "oneMatchPlayed": "1 partita giocata",
+
+  "victory": "vittoria",
+  "victories": "vittorie",
+  "defeat": "sconfitta",
+  "defeats": "sconfitte",
+
+  "recentPerformance": "PRESTAZIONI RECENTI",
+
+  "winRateExcludingDraws": "Percentuale di vittorie (escludendo i pareggi): {percentage}%",
+
+  "lastMatchesWithResults": "Ultime {count} partite · {results}",
+
+  "drawResult": "Pareggio ({setsWon}–{setsLost})",
+  "winResult": "Vittoria ({setsWon}–{setsLost})",
+  "lossResult": "Sconfitta ({setsWon}–{setsLost})",
+
+  "hoursShort": "{hours}h",
+  "minutesShort": "{minutes}m",
+  "hoursAndMinutes": "{hours}h {minutes}m",
+
+  "zeroMinutes": "0m",
+
+  "readyToStart": "Pronto per iniziare",
+  "perfectStart": "Inizio perfetto",
+  "undefeatedSoFar": "Imbattuto finora",
+  "firstMatchDone": "Prima partita completata",
+  "stillFindingRhythm": "Ancora alla ricerca del ritmo",
+  "strongPerformance": "Prestazione forte",
+  "buildingExperience": "Costruendo esperienza",
+  "balancedPerformance": "Prestazione equilibrata",
+  "goodMomentum": "Buon slancio",
+  "learningAndImproving": "Imparando e migliorando",
+  "steadyProgress": "Progresso costante",
+
+  "matchUpdatedSuccessfully": "Partita aggiornata con successo",
+  "errorUpdatingMatch": "Errore nell'aggiornamento della partita: {error}",
+  "errorGeneric": "Errore: {error}",
+
+  "performanceInsights": "Informazioni sulle Prestazioni",
+  "@performanceInsights": {
+    "description": "Title for performance insights section"
+  },
+
+  "avgRating": "Valutazione Media",
+  "@avgRating": {
+    "description": "Average rating label"
+  },
+
+  "recentForm": "Forma Recente",
+  "@recentForm": {
+    "description": "Recent form label"
+  },
+
+  "howYouRatePerformance": "Come valuti le tue prestazioni",
+  "@howYouRatePerformance": {
+    "description": "Subtitle for average rating card"
+  },
+
+  "winsInLastMatches": "Vittorie nelle tue ultime {count} partite",
+  "@winsInLastMatches": {
+    "description": "Subtitle for recent form card",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+
+  "yourTeam": "La Tua Squadra",
+  "@yourTeam": {
+    "description": "Label for user's team"
+  },
+
+  "opponentTeam": "Squadra Avversaria",
+  "@opponentTeam": {
+    "description": "Label for opponent team"
+  },
+
+  "you": "Tu",
+  "@you": {
+    "description": "Label for the user player"
+  },
+
+  "player1": "Giocatore 1",
+  "@player1": {
+    "description": "Default name for first opponent"
+  },
+
+  "player2": "Giocatore 2",
+  "@player2": {
+    "description": "Default name for second opponent"
+  },
+
+  "edit": "Modifica",
+  "@edit": {
+    "description": "Edit button text"
+  },
+
+  "performance": "Prestazione",
+  "@performance": {
+    "description": "Performance section label"
+  },
+
+  "matchDate": "Data della Partita",
+  "@matchDate": {
+    "description": "Label for match date field"
+  },
+
+  "selectMatchDate": "Seleziona Data della Partita",
+  "@selectMatchDate": {
+    "description": "Title for date picker dialog"
+  },
+
+  "select": "Seleziona",
+  "@select": {
+    "description": "Select button text in date picker"
+  },
+
+  "matchDateRequired": "La data della partita è obbligatoria",
+  "@matchDateRequired": {
+    "description": "Validation error when match date is missing"
+  },
+
+  "futureDateNotAllowed": "Le date future non sono consentite",
+  "@futureDateNotAllowed": {
+    "description": "Validation error when selected date is in the future"
+  },
+
+  "noMatchesThisMonth": "Nessuna partita questo mese",
+  "@noMatchesThisMonth": {
+    "description": "Empty state title when no matches exist for current month filter"
+  },
+
+  "noMatchesThisMonthSubtitle": "Non hai ancora aggiunto nessuna partita in questo periodo",
+  "@noMatchesThisMonthSubtitle": {
+    "description": "Empty state subtitle when no matches exist for current month filter"
+  },
+
+  "addMatch": "Aggiungi Partita",
+  "@addMatch": {
+    "description": "Add match button text"
+  },
+
+  "noMatchesInPeriod": "Nessuna partita in questo periodo",
+  "@noMatchesInPeriod": {
+    "description": "Empty state title when no matches in selected time period"
+  },
+
+  "tryDifferentTimeRange": "Prova a selezionare un periodo di tempo diverso",
+  "@tryDifferentTimeRange": {
+    "description": "Empty state subtitle suggesting different time range"
+  },
+
+
+  "noDataToShow": "Nessun dato da mostrare",
+  "@noDataToShow": {
+    "description": "Empty state title when no stats data available"
+  },
+
+  "addMatchesOrChangeRange": "Aggiungi partite o cambia il periodo di tempo per vedere le tue statistiche",
+  "@addMatchesOrChangeRange": {
+    "description": "Empty state subtitle for stats with suggestion to add matches or change range"
+  },
+
+  "startTrackingMatches": "Inizia a registrare le tue partite",
+  "@startTrackingMatches": {
+    "description": "First-time user empty state title encouraging to start tracking"
+  },
+
+  "addFirstMatchSubtitle": "Aggiungi la tua prima partita di padel e inizia a seguire i tuoi progressi",
+  "@addFirstMatchSubtitle": {
+    "description": "First-time user empty state subtitle explaining benefits"
+  },
+
+  "tryChangingTimeRange": "Prova a cambiare il periodo di tempo per vedere altre partite",
+  "@tryChangingTimeRange": {
+    "description": "Filtered empty state subtitle suggesting time range change"
+  },
+
+  "noMatchesAddedYet": "Non hai ancora aggiunto nessuna partita",
+  "@noMatchesAddedYet": {
+    "description": "My Matches first-time user empty state title"
+  },
+
+  "startByAddingFirstMatch": "Inizia registrando la tua prima partita di padel",
+  "@startByAddingFirstMatch": {
+    "description": "My Matches first-time user empty state subtitle"
+  },
+
+  "noStatsYet": "Nessuna statistica ancora",
+  "@noStatsYet": {
+    "description": "Stats first-time user empty state title"
+  },
+
+  "addMatchesToSeeStats": "Aggiungi partite per iniziare a vedere le tue statistiche di performance",
+  "@addMatchesToSeeStats": {
+    "description": "Stats first-time user empty state subtitle"
+  },
+
+  "noDataForThisPeriod": "Nessun dato per questo periodo",
+  "@noDataForThisPeriod": {
+    "description": "Stats filtered empty state title"
+  },
+
+  "changeRangeToSeeOtherStats": "Cambia il periodo di tempo per vedere statistiche di altre partite",
+  "@changeRangeToSeeOtherStats": {
+    "description": "Stats filtered empty state subtitle"
+  },
+
+  "lastMatch": "Ultima partita",
+  "@lastMatch": {
+    "description": "Last match header text"
+  },
+
+  "friendly": "Amichevole",
+  "@friendly": {
+    "description": "Friendly match type"
+  },
+
+  "league": "Campionato",
+  "@league": {
+    "description": "League match type"
+  },
+
+  "tournament": "Torneo",
+  "@tournament": {
+    "description": "Tournament match type"
+  },
+
+  "victory": "Vittoria",
+  "@victory": {
+    "description": "Victory outcome text"
+  },
+
+  "defeat": "Sconfitta",
+  "@defeat": {
+    "description": "Defeat outcome text"
+  },
+
+  "draw": "Pareggio",
+  "@draw": {
+    "description": "Draw outcome text"
+  },
+
+  "straightSets": "Set consecutivi",
+  "@straightSets": {
+    "description": "Straight sets text"
+  },
+
+  "welcomeTo": "Benvenuto a",
+  "@welcomeTo": {
+    "description": "Welcome screen small text"
+  },
+
+  "onboardingTitle1": "Traccia le tue partite di padel",
+  "@onboardingTitle1": {
+    "description": "Onboarding screen 1 title"
+  },
+
+  "onboardingSubtitle1": "Salva le tue partite, risultati e tipi di gioco facilmente",
+  "@onboardingSubtitle1": {
+    "description": "Onboarding screen 1 subtitle"
+  },
+
+  "onboardingTitle2": "Analizza i tuoi progressi",
+  "@onboardingTitle2": {
+    "description": "Onboarding screen 2 title"
+  },
+
+  "onboardingSubtitle2": "Consulta statistiche per mesi, tipi di partita e prestazioni",
+  "@onboardingSubtitle2": {
+    "description": "Onboarding screen 2 subtitle"
+  },
+
+  "onboardingTitle3": "Inizia quando vuoi",
+  "@onboardingTitle3": {
+    "description": "Onboarding screen 3 title"
+  },
+
+  "onboardingSubtitle3": "Aggiungi partite manualmente e rivedi la tua cronologia quando ne hai bisogno",
+  "@onboardingSubtitle3": {
+    "description": "Onboarding screen 3 subtitle"
+  },
+
+  "getStarted": "Inizia",
+  "@getStarted": {
+    "description": "Get started button text for onboarding"
+  },
+
+  "next": "Avanti",
+  "@next": {
+    "description": "Next button text for onboarding"
+  },
+
+  "addFirstMatch": "Aggiungi prima partita",
+  "@addFirstMatch": {
+    "description": "Add first match button text"
+  },
+
+  "optional": "opzionale",
+  "@optional": {
+    "description": "Optional field indicator text"
+  },
+
+  "performanceRatingHelper": "Come ti sei sentito riguardo alla tua performance in questa partita?",
+  "@performanceRatingHelper": {
+    "description": "Helper text for performance rating section"
+  }
+}

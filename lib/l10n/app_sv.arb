@@ -1,0 +1,866 @@
+{
+  "@@locale": "sv",
+  "appTitle": "Padel Tracker",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  
+  "homeTitle": "Hem",
+  "@homeTitle": {
+    "description": "Title for the home page"
+  },
+  
+  "myMatchesTitle": "Mina Matcher",
+  "@myMatchesTitle": {
+    "description": "Title for the matches list page"
+  },
+  
+  "statsTitle": "Statistik",
+  "@statsTitle": {
+    "description": "Title for the stats page"
+  },
+  
+  "addMatchTitle": "Lägg till Match",
+  "@addMatchTitle": {
+    "description": "Title for the add match page"
+  },
+  
+  "cancel": "Avbryt",
+  "@cancel": {
+    "description": "Cancel button text"
+  },
+  
+  "saveMatch": "Spara Match",
+  "@saveMatch": {
+    "description": "Save match button text"
+  },
+  
+  "newMatch": "+ Ny Match",
+  "@newMatch": {
+    "description": "New match button text"
+  },
+  
+  "matchDetails": "Matchdetaljer",
+  "@matchDetails": {
+    "description": "Match details section title"
+  },
+  
+  "matchType": "Matchtyp",
+  "@matchType": {
+    "description": "Match type field label"
+  },
+  
+  "playingSide": "Spelplan",
+  "@playingSide": {
+    "description": "Playing side field label"
+  },
+  
+  "players": "Spelare",
+  "@players": {
+    "description": "Players section title"
+  },
+  
+  "partnerName": "Partners Namn",
+  "@partnerName": {
+    "description": "Partner name field label"
+  },
+  
+  "opponent1Name": "Motståndare 1 Namn",
+  "@opponent1Name": {
+    "description": "First opponent name field label"
+  },
+  
+  "opponent2Name": "Motståndare 2 Namn",
+  "@opponent2Name": {
+    "description": "Second opponent name field label"
+  },
+  
+  "additionalDetails": "Ytterligare Detaljer",
+  "@additionalDetails": {
+    "description": "Additional details section title"
+  },
+  
+  "location": "Plats",
+  "@location": {
+    "description": "Location field label"
+  },
+  
+  "locationHint": "t.ex. Padel Club",
+  "@locationHint": {
+    "description": "Location field hint text"
+  },
+  
+  "hours": "Timmar",
+  "@hours": {
+    "description": "Hours field label"
+  },
+  
+  "minutes": "Minuter",
+  "@minutes": {
+    "description": "Minutes field label"
+  },
+  
+  "sets": "Set",
+  "@sets": {
+    "description": "Sets section title"
+  },
+  
+  "performanceRating": "Prestationsbedömning",
+  "@performanceRating": {
+    "description": "Performance rating section title"
+  },
+  
+  "matchTypeFriendly": "VÄNSKAPSMATCH",
+  "@matchTypeFriendly": {
+    "description": "Friendly match type"
+  },
+  
+  "matchTypeLeague": "LIGA",
+  "@matchTypeLeague": {
+    "description": "League match type"
+  },
+  
+  "matchTypeTournament": "TURNERING",
+  "@matchTypeTournament": {
+    "description": "Tournament match type"
+  },
+  
+  "playingSideRight": "HÖGER",
+  "@playingSideRight": {
+    "description": "Right playing side"
+  },
+  
+  "playingSideLeft": "VÄNSTER",
+  "@playingSideLeft": {
+    "description": "Left playing side"
+  },
+  
+  "matchTypeFriendlyDisplay": "Vänskapsmatch",
+  "@matchTypeFriendlyDisplay": {
+    "description": "Friendly match type for display"
+  },
+  
+  "matchTypeLeagueDisplay": "Liga",
+  "@matchTypeLeagueDisplay": {
+    "description": "League match type for display"
+  },
+  
+  "matchTypeTournamentDisplay": "Turnering",
+  "@matchTypeTournamentDisplay": {
+    "description": "Tournament match type for display"
+  },
+  
+  "win": "Vinst",
+  "@win": {
+    "description": "Win outcome text"
+  },
+  
+  "loss": "Förlust",
+  "@loss": {
+    "description": "Loss outcome text"
+  },
+  
+  "draw": "Oavgjort",
+  "@draw": {
+    "description": "Draw outcome text"
+  },
+  
+  "noMatchesYet": "Inga matcher än",
+  "@noMatchesYet": {
+    "description": "Empty state message when no matches exist"
+  },
+  
+  "startTrackingJourney": "Börja spåra din padelresa",
+  "@startTrackingJourney": {
+    "description": "Empty state subtitle for home page"
+  },
+  
+  "noMatchesInPeriod": "Inga matcher under denna period",
+  "@noMatchesInPeriod": {
+    "description": "Empty state message when no matches in selected time range"
+  },
+  
+  "tryDifferentTimeRange": "Prova att välja en annan tidsperiod",
+  "@tryDifferentTimeRange": {
+    "description": "Empty state subtitle for filtered results"
+  },
+  
+  "tapToAddFirstMatch": "Tryck + för att lägga till din första match",
+  "@tapToAddFirstMatch": {
+    "description": "Empty state subtitle when no matches exist"
+  },
+  
+  "tryDifferentTimeRangeStats": "Prova att välja en annan tidsperiod för att se din statistik",
+  "@tryDifferentTimeRangeStats": {
+    "description": "Empty state subtitle for stats page"
+  },
+  
+  "addMatchesToSeeStats": "Lägg till några matcher för att se din statistik",
+  "@addMatchesToSeeStats": {
+    "description": "Empty state subtitle for stats page when no matches"
+  },
+  
+  "matchesCount": "{count} matcher",
+  "@matchesCount": {
+    "description": "Number of matches text",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  
+  "matchDeleted": "Match raderad",
+  "@matchDeleted": {
+    "description": "Snackbar message when match is deleted"
+  },
+  
+  "undo": "Ångra",
+  "@undo": {
+    "description": "Undo action text"
+  },
+  
+  "retry": "Försök igen",
+  "@retry": {
+    "description": "Retry button text"
+  },
+  
+  "error": "Fel: {message}",
+  "@error": {
+    "description": "Error message format",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "Nätverksfel"
+      }
+    }
+  },
+  
+  "atLeastOneSetRequired": "Minst ett set krävs",
+  "@atLeastOneSetRequired": {
+    "description": "Validation error for empty sets"
+  },
+  
+  "officialMatchesMustHaveWinner": "Officiella matcher måste ha en vinnare (bäst av 3 set)",
+  "@officialMatchesMustHaveWinner": {
+    "description": "Validation error for official matches without winner"
+  },
+  
+  "yourMatchResultsSoFar": "Dina matchresultat hittills",
+  "@yourMatchResultsSoFar": {
+    "description": "Stats section title for results"
+  },
+  
+  "seeHowPerformingOverall": "Se hur du presterar överlag",
+  "@seeHowPerformingOverall": {
+    "description": "Stats section subtitle for results"
+  },
+  
+  "typesOfMatchesPlayMost": "De typer av matcher du spelar oftast",
+  "@typesOfMatchesPlayMost": {
+    "description": "Stats section subtitle for match types"
+  },
+  
+  "howPerformingRecently": "Hur du har presterat på senare tid",
+  "@howPerformingRecently": {
+    "description": "Stats section title for performance"
+  },
+  
+  "consistencyCurrentForm": "Din konsistens och nuvarande form",
+  "@consistencyCurrentForm": {
+    "description": "Stats section subtitle for performance"
+  },
+  
+  "youMostlyPlayFriendly": "Du spelar mest vänskapsmatches",
+  "@youMostlyPlayFriendly": {
+    "description": "Stats narrative for friendly matches"
+  },
+  
+  "youFocusOnLeague": "Du fokuserar på ligamatcher",
+  "@youFocusOnLeague": {
+    "description": "Stats narrative for league matches"
+  },
+  
+  "youCompeteInTournaments": "Du tävlar ofta i turneringar",
+  "@youCompeteInTournaments": {
+    "description": "Stats narrative for tournament matches"
+  },
+  
+  "yourMatchTypes": "Dina matchtyper",
+  "@yourMatchTypes": {
+    "description": "Default stats narrative for match types"
+  },
+  
+  "resultsDistribution": "Resultatfördelning",
+  "@resultsDistribution": {
+    "description": "Results distribution widget title"
+  },
+  
+  "wins": "Vinster",
+  "@wins": {
+    "description": "Wins label in stats"
+  },
+  
+  "losses": "Förluster",
+  "@losses": {
+    "description": "Losses label in stats"
+  },
+  
+  "draws": "Oavgjorda",
+  "@draws": {
+    "description": "Draws label in stats"
+  },
+  
+  "noScore": "Ingen poäng",
+  "@noScore": {
+    "description": "Text when match has no score"
+  },
+
+  "navigationHome": "Hem",
+  "@navigationHome": {
+    "description": "Bottom navigation label for home"
+  },
+
+  "navigationMatches": "Matcher",
+  "@navigationMatches": {
+    "description": "Bottom navigation label for matches"
+  },
+
+  "navigationStats": "Statistik",
+  "@navigationStats": {
+    "description": "Bottom navigation label for stats"
+  },
+
+  "lastMonth": "Senaste Månaden",
+  "@lastMonth": {
+    "description": "Time range filter for last month"
+  },
+
+  "lastThreeMonths": "Senaste 3 Månaderna",
+  "@lastThreeMonths": {
+    "description": "Time range filter for last 3 months"
+  },
+
+  "lastYear": "Senaste Året",
+  "@lastYear": {
+    "description": "Time range filter for last year"
+  },
+
+  "allTime": "Hela Tiden",
+  "@allTime": {
+    "description": "Time range filter for all time"
+  },
+
+  "duration": "Varaktighet",
+  "@duration": {
+    "description": "Duration label"
+  },
+
+  "notSet": "Ej inställd",
+  "@notSet": {
+    "description": "Text when a field is not set"
+  },
+
+  "yourPadelJourneyBeginsHere": "Din padelresa börjar här",
+  "@yourPadelJourneyBeginsHere": {
+    "description": "Performance message for no matches"
+  },
+
+  "oneMatchPlayed": "1 match spelad",
+  "@oneMatchPlayed": {
+    "description": "Performance message for single match"
+  },
+
+  "victory": "vinst",
+  "@victory": {
+    "description": "Single victory text"
+  },
+
+  "victories": "vinster",
+  "@victories": {
+    "description": "Multiple victories text"
+  },
+
+  "defeat": "förlust",
+  "@defeat": {
+    "description": "Single defeat text"
+  },
+
+  "defeats": "förluster",
+  "@defeats": {
+    "description": "Multiple defeats text"
+  },
+
+  "recentPerformance": "SENASTE PRESTATIONER",
+  "@recentPerformance": {
+    "description": "Recent performance section header"
+  },
+
+  "winRateExcludingDraws": "Vinstprocent (exklusive oavgjorda): {percentage}%",
+  "@winRateExcludingDraws": {
+    "description": "Win rate percentage text",
+    "placeholders": {
+      "percentage": {
+        "type": "int",
+        "example": "75"
+      }
+    }
+  },
+
+  "lastMatchesWithResults": "Senaste {count} matcherna · {results}",
+  "@lastMatchesWithResults": {
+    "description": "Last matches summary with results",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      },
+      "results": {
+        "type": "String",
+        "example": "3 vinster, 2 förluster"
+      }
+    }
+  },
+
+  "drawResult": "Oavgjort ({setsWon}–{setsLost})",
+  "@drawResult": {
+    "description": "Draw result text with sets",
+    "placeholders": {
+      "setsWon": {
+        "type": "int",
+        "example": "1"
+      },
+      "setsLost": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+
+  "winResult": "Vinst ({setsWon}–{setsLost})",
+  "@winResult": {
+    "description": "Win result text with sets",
+    "placeholders": {
+      "setsWon": {
+        "type": "int",
+        "example": "2"
+      },
+      "setsLost": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+
+  "lossResult": "Förlust ({setsWon}–{setsLost})",
+  "@lossResult": {
+    "description": "Loss result text with sets",
+    "placeholders": {
+      "setsWon": {
+        "type": "int",
+        "example": "1"
+      },
+      "setsLost": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+
+  "hoursShort": "{hours}h",
+  "@hoursShort": {
+    "description": "Hours short format",
+    "placeholders": {
+      "hours": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+
+  "minutesShort": "{minutes}m",
+  "@minutesShort": {
+    "description": "Minutes short format",
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+
+  "hoursAndMinutes": "{hours}h {minutes}m",
+  "@hoursAndMinutes": {
+    "description": "Hours and minutes format",
+    "placeholders": {
+      "hours": {
+        "type": "int",
+        "example": "1"
+      },
+      "minutes": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+
+  "zeroMinutes": "0m",
+  "@zeroMinutes": {
+    "description": "Zero minutes format"
+  },
+
+  "readyToStart": "Redo att börja",
+  "@readyToStart": {
+    "description": "Performance message for no matches"
+  },
+
+  "perfectStart": "Perfekt start",
+  "@perfectStart": {
+    "description": "Performance message for first win"
+  },
+
+  "undefeatedSoFar": "Obesegrad hittills",
+  "@undefeatedSoFar": {
+    "description": "Performance message for multiple wins"
+  },
+
+  "firstMatchDone": "Första matchen klar",
+  "@firstMatchDone": {
+    "description": "Performance message for first loss"
+  },
+
+  "stillFindingRhythm": "Hittar fortfarande din rytm",
+  "@stillFindingRhythm": {
+    "description": "Performance message for multiple losses"
+  },
+
+  "strongPerformance": "Stark prestation",
+  "@strongPerformance": {
+    "description": "Performance message for good win rate"
+  },
+
+  "buildingExperience": "Bygger erfarenhet",
+  "@buildingExperience": {
+    "description": "Performance message for learning"
+  },
+
+  "balancedPerformance": "Balanserad prestation",
+  "@balancedPerformance": {
+    "description": "Performance message for even record"
+  },
+
+  "goodMomentum": "Bra fart",
+  "@goodMomentum": {
+    "description": "Performance message for positive trend"
+  },
+
+  "learningAndImproving": "Lär och förbättras",
+  "@learningAndImproving": {
+    "description": "Performance message for growth"
+  },
+
+  "steadyProgress": "Stadig framsteg",
+  "@steadyProgress": {
+    "description": "Default performance message"
+  },
+
+  "matchUpdatedSuccessfully": "Match uppdaterad framgångsrikt",
+  "@matchUpdatedSuccessfully": {
+    "description": "Success message for match update"
+  },
+
+  "errorUpdatingMatch": "Fel vid uppdatering av match: {error}",
+  "@errorUpdatingMatch": {
+    "description": "Error message for match update failure",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Nätverksfel"
+      }
+    }
+  },
+
+  "errorGeneric": "Fel: {error}",
+  "@errorGeneric": {
+    "description": "Generic error message",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Något gick fel"
+      }
+    }
+  },
+
+  "performanceInsights": "Prestationsinsikter",
+  "@performanceInsights": {
+    "description": "Title for performance insights section"
+  },
+
+  "avgRating": "Genomsnittlig Bedömning",
+  "@avgRating": {
+    "description": "Average rating label"
+  },
+
+  "recentForm": "Senaste Form",
+  "@recentForm": {
+    "description": "Recent form label"
+  },
+
+  "howYouRatePerformance": "Hur du bedömer din egen prestation",
+  "@howYouRatePerformance": {
+    "description": "Subtitle for average rating card"
+  },
+
+  "winsInLastMatches": "Vinster i dina senaste {count} matcher",
+  "@winsInLastMatches": {
+    "description": "Subtitle for recent form card",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+
+  "yourTeam": "Ditt Lag",
+  "@yourTeam": {
+    "description": "Label for user's team"
+  },
+
+  "opponentTeam": "Motståndarlaget",
+  "@opponentTeam": {
+    "description": "Label for opponent team"
+  },
+
+  "you": "Du",
+  "@you": {
+    "description": "Label for the user player"
+  },
+
+  "player1": "Spelare 1",
+  "@player1": {
+    "description": "Default name for first opponent"
+  },
+
+  "player2": "Spelare 2",
+  "@player2": {
+    "description": "Default name for second opponent"
+  },
+
+  "edit": "Redigera",
+  "@edit": {
+    "description": "Edit button text"
+  },
+
+  "performance": "Prestation",
+  "@performance": {
+    "description": "Performance section label"
+  },
+
+  "matchDate": "Matchdatum",
+  "@matchDate": {
+    "description": "Label for match date field"
+  },
+
+  "selectMatchDate": "Välj Matchdatum",
+  "@selectMatchDate": {
+    "description": "Title for date picker dialog"
+  },
+
+  "select": "Välj",
+  "@select": {
+    "description": "Select button text in date picker"
+  },
+
+  "matchDateRequired": "Matchdatum krävs",
+  "@matchDateRequired": {
+    "description": "Validation error when match date is missing"
+  },
+
+  "futureDateNotAllowed": "Framtida datum är inte tillåtna",
+  "@futureDateNotAllowed": {
+    "description": "Validation error when selected date is in the future"
+  },
+
+  "noMatchesThisMonth": "Inga matcher denna månad",
+  "@noMatchesThisMonth": {
+    "description": "Empty state title when no matches exist for current month filter"
+  },
+
+  "noMatchesThisMonthSubtitle": "Du har inte lagt till några matcher under denna period än",
+  "@noMatchesThisMonthSubtitle": {
+    "description": "Empty state subtitle when no matches exist for current month filter"
+  },
+
+  "addMatch": "Lägg till Match",
+  "@addMatch": {
+    "description": "Add match button text"
+  },
+
+  "noMatchesInPeriod": "Inga matcher under denna period",
+  "@noMatchesInPeriod": {
+    "description": "Empty state title when no matches in selected time period"
+  },
+
+  "tryDifferentTimeRange": "Försök välja ett annat tidsintervall",
+  "@tryDifferentTimeRange": {
+    "description": "Empty state subtitle suggesting different time range"
+  },
+
+
+  "noDataToShow": "Ingen data att visa",
+  "@noDataToShow": {
+    "description": "Empty state title when no stats data available"
+  },
+
+  "addMatchesOrChangeRange": "Lägg till matcher eller ändra tidsintervallet för att se din statistik",
+  "@addMatchesOrChangeRange": {
+    "description": "Empty state subtitle for stats with suggestion to add matches or change range"
+  },
+
+  "startTrackingMatches": "Börja spåra dina matcher",
+  "@startTrackingMatches": {
+    "description": "First-time user empty state title encouraging to start tracking"
+  },
+
+  "addFirstMatchSubtitle": "Lägg till din första padelmatch och börja följa dina framsteg",
+  "@addFirstMatchSubtitle": {
+    "description": "First-time user empty state subtitle explaining benefits"
+  },
+
+  "tryChangingTimeRange": "Försök ändra tidsintervallet för att se andra matcher",
+  "@tryChangingTimeRange": {
+    "description": "Filtered empty state subtitle suggesting time range change"
+  },
+
+  "noMatchesAddedYet": "Du har inte lagt till några matcher än",
+  "@noMatchesAddedYet": {
+    "description": "My Matches first-time user empty state title"
+  },
+
+  "startByAddingFirstMatch": "Börja med att registrera din första padelmatch",
+  "@startByAddingFirstMatch": {
+    "description": "My Matches first-time user empty state subtitle"
+  },
+
+  "noStatsYet": "Ingen statistik än",
+  "@noStatsYet": {
+    "description": "Stats first-time user empty state title"
+  },
+
+  "addMatchesToSeeStats": "Lägg till matcher för att börja se din prestationsstatistik",
+  "@addMatchesToSeeStats": {
+    "description": "Stats first-time user empty state subtitle"
+  },
+
+  "noDataForThisPeriod": "Ingen data för denna period",
+  "@noDataForThisPeriod": {
+    "description": "Stats filtered empty state title"
+  },
+
+  "changeRangeToSeeOtherStats": "Ändra tidsintervallet för att se statistik från andra matcher",
+  "@changeRangeToSeeOtherStats": {
+    "description": "Stats filtered empty state subtitle"
+  },
+
+  "lastMatch": "Senaste match",
+  "@lastMatch": {
+    "description": "Last match header text"
+  },
+
+  "friendly": "Vänskapsmatch",
+  "@friendly": {
+    "description": "Friendly match type"
+  },
+
+  "league": "Liga",
+  "@league": {
+    "description": "League match type"
+  },
+
+  "tournament": "Turnering",
+  "@tournament": {
+    "description": "Tournament match type"
+  },
+
+  "victory": "Vinst",
+  "@victory": {
+    "description": "Victory outcome text"
+  },
+
+  "defeat": "Förlust",
+  "@defeat": {
+    "description": "Defeat outcome text"
+  },
+
+  "draw": "Oavgjort",
+  "@draw": {
+    "description": "Draw outcome text"
+  },
+
+  "straightSets": "Raka set",
+  "@straightSets": {
+    "description": "Straight sets text"
+  },
+
+  "welcomeTo": "Välkommen till",
+  "@welcomeTo": {
+    "description": "Welcome screen small text"
+  },
+
+  "onboardingTitle1": "Spåra dina padelmatches",
+  "@onboardingTitle1": {
+    "description": "Onboarding screen 1 title"
+  },
+
+  "onboardingSubtitle1": "Spara dina matcher, resultat och speltyper enkelt",
+  "@onboardingSubtitle1": {
+    "description": "Onboarding screen 1 subtitle"
+  },
+
+  "onboardingTitle2": "Analysera dina framsteg",
+  "@onboardingTitle2": {
+    "description": "Onboarding screen 2 title"
+  },
+
+  "onboardingSubtitle2": "Se statistik per månad, matchtyper och prestation",
+  "@onboardingSubtitle2": {
+    "description": "Onboarding screen 2 subtitle"
+  },
+
+  "onboardingTitle3": "Börja när du vill",
+  "@onboardingTitle3": {
+    "description": "Onboarding screen 3 title"
+  },
+
+  "onboardingSubtitle3": "Lägg till matcher manuellt och granska din historik när du behöver",
+  "@onboardingSubtitle3": {
+    "description": "Onboarding screen 3 subtitle"
+  },
+
+  "getStarted": "Kom igång",
+  "@getStarted": {
+    "description": "Get started button text for onboarding"
+  },
+
+  "next": "Nästa",
+  "@next": {
+    "description": "Next button text for onboarding"
+  },
+
+  "addFirstMatch": "Lägg till första match",
+  "@addFirstMatch": {
+    "description": "Add first match button text"
+  },
+
+  "optional": "valfritt",
+  "@optional": {
+    "description": "Optional field indicator text"
+  },
+
+  "performanceRatingHelper": "Hur kände du dig om din prestation i denna match?",
+  "@performanceRatingHelper": {
+    "description": "Helper text for performance rating section"
+  }
+}

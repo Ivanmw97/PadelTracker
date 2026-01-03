@@ -1,0 +1,5 @@
+package com.padeltracker.padel_tracker
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
