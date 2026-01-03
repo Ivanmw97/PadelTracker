@@ -54,8 +54,6 @@ class _HomePageState extends ConsumerState<HomePage> {
     } else {
       return AppLocalizations.of(context)!.learningAndImproving;
     }
-    
-    return AppLocalizations.of(context)!.steadyProgress;
   }
 
   List<MatchOutcome> _getRecentOutcomes(List<dynamic> matches, {int limit = 5}) {

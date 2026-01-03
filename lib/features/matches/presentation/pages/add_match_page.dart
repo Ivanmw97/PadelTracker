@@ -185,16 +185,6 @@ class _AddMatchPageState extends ConsumerState<AddMatchPage> {
     }
   }
 
-  void _onSetScoreChanged() {
-    if (_isOfficialMatch) {
-      setState(() {
-        _syncOfficialSets();
-      });
-    } else {
-      setState(() {});
-    }
-  }
-
   String? _getDateValidationError() {
     if (DateFormatter.isFutureDate(_selectedDate)) {
       return AppLocalizations.of(context)!.futureDateNotAllowed;
@@ -229,8 +219,6 @@ class _AddMatchPageState extends ConsumerState<AddMatchPage> {
 
   @override
   Widget build(BuildContext context) {
-    final bottomPadding = MediaQuery.of(context).viewPadding.bottom;
-    
     return Scaffold(
       backgroundColor: const Color(0xFFF8F8F8),
       appBar: AppBar(
