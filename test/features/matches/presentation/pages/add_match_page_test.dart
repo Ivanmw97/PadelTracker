@@ -6,7 +6,6 @@ import 'package:padel_tracker/features/matches/presentation/pages/add_match_page
 import 'package:padel_tracker/features/matches/presentation/widgets/add_match/date_picker_field.dart';
 import 'package:padel_tracker/features/matches/state/matches_provider.dart';
 import 'package:padel_tracker/features/matches/state/matches_notifier.dart';
-import 'package:padel_tracker/features/matches/state/matches_state.dart';
 import 'package:padel_tracker/domain/repositories/match_repository.dart';
 import 'package:padel_tracker/domain/models/match.dart' as domain;
 import 'package:padel_tracker/l10n/app_localizations.dart';

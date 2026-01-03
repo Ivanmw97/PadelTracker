@@ -173,12 +173,34 @@ class _MatchDetailPageState extends ConsumerState<MatchDetailPage> {
 
 
   Widget _buildEditMode() {
-    return SingleChildScrollView(
-      padding: const EdgeInsets.fromLTRB(20, 16, 20, 20),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: _buildEditModeContent(),
-      ),
+    return Column(
+      children: [
+        Expanded(
+          child: SingleChildScrollView(
+            padding: const EdgeInsets.fromLTRB(20, 16, 20, 0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: _buildEditModeContent(),
+            ),
+          ),
+        ),
+        // Fixed bottom button with proper safe area handling
+        SafeArea(
+          child: Container(
+            padding: const EdgeInsets.fromLTRB(20, 16, 20, 16),
+            decoration: const BoxDecoration(
+              color: Color(0xFFF8F8F8),
+              border: Border(
+                top: BorderSide(
+                  color: Color(0xFFE5E5EA),
+                  width: 0.5,
+                ),
+              ),
+            ),
+            child: _buildSaveButton(),
+          ),
+        ),
+      ],
     );
   }
 
@@ -349,8 +371,6 @@ class _MatchDetailPageState extends ConsumerState<MatchDetailPage> {
         ],
       ),
       const SizedBox(height: 32),
-      
-      _buildSaveButton(),
     ];
   }
 

@@ -229,6 +229,8 @@ class _AddMatchPageState extends ConsumerState<AddMatchPage> {
 
   @override
   Widget build(BuildContext context) {
+    final bottomPadding = MediaQuery.of(context).viewPadding.bottom;
+    
     return Scaffold(
       backgroundColor: const Color(0xFFF8F8F8),
       appBar: AppBar(
@@ -244,11 +246,14 @@ class _AddMatchPageState extends ConsumerState<AddMatchPage> {
         elevation: 0,
         centerTitle: false,
       ),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.fromLTRB(20, 16, 20, 20),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
+      body: Column(
+        children: [
+          Expanded(
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.fromLTRB(20, 16, 20, 0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
             SectionCard(
               title: AppLocalizations.of(context)!.matchDetails,
               icon: Icons.info_outline,
@@ -406,10 +411,27 @@ class _AddMatchPageState extends ConsumerState<AddMatchPage> {
               ],
             ),
             const SizedBox(height: 32),
-            
-            _buildSaveButton(),
-          ],
-        ),
+                ],
+              ),
+            ),
+          ),
+          // Fixed bottom button with proper safe area handling
+          SafeArea(
+            child: Container(
+              padding: const EdgeInsets.fromLTRB(20, 16, 20, 16),
+              decoration: const BoxDecoration(
+                color: Color(0xFFF8F8F8),
+                border: Border(
+                  top: BorderSide(
+                    color: Color(0xFFE5E5EA),
+                    width: 0.5,
+                  ),
+                ),
+              ),
+              child: _buildSaveButton(),
+            ),
+          ),
+        ],
       ),
     );
   }
