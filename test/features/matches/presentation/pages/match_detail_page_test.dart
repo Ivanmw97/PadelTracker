@@ -12,7 +12,6 @@ import 'package:padel_tracker/features/matches/presentation/pages/match_detail_p
 import 'package:padel_tracker/features/matches/presentation/widgets/add_match/date_picker_field.dart';
 import 'package:padel_tracker/features/matches/state/matches_provider.dart';
 import 'package:padel_tracker/features/matches/state/matches_notifier.dart';
-import 'package:padel_tracker/features/matches/state/matches_state.dart';
 import 'package:padel_tracker/domain/repositories/match_repository.dart';
 import 'package:padel_tracker/l10n/app_localizations.dart';
 import 'package:padel_tracker/utils/date_formatter.dart';

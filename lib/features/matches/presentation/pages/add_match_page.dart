@@ -126,25 +126,6 @@ class _AddMatchPageState extends ConsumerState<AddMatchPage> {
     });
   }
 
-  void _syncOfficialSets() {
-    if (!_isOfficialMatch || _sets.length < 2) return;
-
-    int userSetsWon = _sets.take(2).where((s) => s.isUserWinner).length;
-    int opponentSetsWon = 2 - userSetsWon;
-
-    bool isSplit = userSetsWon == 1 && opponentSetsWon == 1;
-    bool shouldHaveThirdSet = isSplit;
-    bool hasThirdSet = _sets.length == 3;
-
-    if (shouldHaveThirdSet && !hasThirdSet) {
-      // Add third set
-      _sets.add(_PadelSetDraft());
-    } else if (!shouldHaveThirdSet && hasThirdSet) {
-      // Remove third set
-      _sets[2].dispose();
-      _sets.removeAt(2);
-    }
-  }
 
   bool get _canAddSet {
     if (_isOfficialMatch) {
@@ -367,7 +348,7 @@ class _AddMatchPageState extends ConsumerState<AddMatchPage> {
                           canRemove: _canRemoveSet,
                           onRemove: () => _removeSet(index),
                         );
-                      }).toList(),
+                      }),
                     ],
                   ),
                   const SizedBox(height: 20),

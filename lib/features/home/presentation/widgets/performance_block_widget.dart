@@ -38,15 +38,17 @@ class PerformanceBlockWidget extends StatelessWidget {
       supportingLine = AppLocalizations.of(context)!.oneMatchPlayed;
     } else {
       final parts = <String>[];
-      if (wins > 0)
+      if (wins > 0) {
         parts.add(
           '$wins ${wins == 1 ? AppLocalizations.of(context)!.victory : AppLocalizations.of(context)!.victories}',
         );
-      if (losses > 0)
+      }
+      if (losses > 0) {
         parts.add(
           '$losses ${losses == 1 ? AppLocalizations.of(context)!.defeat : AppLocalizations.of(context)!.defeats}',
         );
-      if (draws > 0)
+      }
+      if (draws > 0) {
         parts.add(
           '$draws ${draws == 1 ? AppLocalizations.of(context)!.draw : AppLocalizations.of(context)!.draws}',
         );

@@ -56,16 +56,6 @@ class MatchCard extends StatelessWidget {
     }
   }
 
-  Color _getResultColor(MatchOutcome outcome) {
-    switch (outcome) {
-      case MatchOutcome.win:
-        return const Color(0xFF34C759);
-      case MatchOutcome.loss:
-        return const Color(0xFFFF3B30);
-      case MatchOutcome.draw:
-        return const Color(0xFFFF9500);
-    }
-  }
 
   String _getOutcomeText(MatchOutcome outcome, BuildContext context) {
     switch (outcome) {
