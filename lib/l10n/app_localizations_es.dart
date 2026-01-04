@@ -451,7 +451,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get tournament => 'Torneo';
 
   @override
-  String get straightSets => 'Sets corridos';
+  String get straightSets => 'Marcador';
 
   @override
   String get onboardingTitle1 => 'Registra tus partidos de pádel';

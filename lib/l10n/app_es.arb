@@ -799,7 +799,7 @@
     "description": "Draw outcome text"
   },
 
-  "straightSets": "Sets corridos",
+  "straightSets": "Marcador",
   "@straightSets": {
     "description": "Straight sets text"
   },
