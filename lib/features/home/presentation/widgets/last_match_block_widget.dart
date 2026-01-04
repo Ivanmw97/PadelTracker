@@ -19,7 +19,7 @@ class LastMatchBlockWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final outcome = getMatchOutcome(match);
-    final dateFormat = DateFormat('MMM dd, yyyy');
+    final dateFormat = DateFormat.yMMMd(Localizations.localeOf(context).languageCode);
 
     String matchTypeName = '';
     switch (match.matchType) {
