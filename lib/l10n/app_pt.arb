@@ -160,11 +160,6 @@
     "description": "Loss outcome text"
   },
   
-  "draw": "Empate",
-  "@draw": {
-    "description": "Draw outcome text"
-  },
-  
   "noMatchesYet": "Nenhum jogo ainda",
   "@noMatchesYet": {
     "description": "Empty state message when no matches exist"
@@ -175,16 +170,6 @@
     "description": "Empty state subtitle for home page"
   },
   
-  "noMatchesInPeriod": "Nenhum jogo neste período",
-  "@noMatchesInPeriod": {
-    "description": "Empty state message when no matches in selected time range"
-  },
-  
-  "tryDifferentTimeRange": "Tente selecionar um período diferente",
-  "@tryDifferentTimeRange": {
-    "description": "Empty state subtitle for filtered results"
-  },
-  
   "tapToAddFirstMatch": "Toque + para adicionar seu primeiro jogo",
   "@tapToAddFirstMatch": {
     "description": "Empty state subtitle when no matches exist"
@@ -193,11 +178,6 @@
   "tryDifferentTimeRangeStats": "Tente selecionar um período diferente para ver suas estatísticas",
   "@tryDifferentTimeRangeStats": {
     "description": "Empty state subtitle for stats page"
-  },
-  
-  "addMatchesToSeeStats": "Adicione alguns jogos para ver suas estatísticas",
-  "@addMatchesToSeeStats": {
-    "description": "Empty state subtitle for stats page when no matches"
   },
   
   "matchesCount": "{count} jogos",
@@ -372,19 +352,9 @@
     "description": "Performance message for single match"
   },
 
-  "victory": "vitória",
-  "@victory": {
-    "description": "Single victory text"
-  },
-
   "victories": "vitórias",
   "@victories": {
     "description": "Multiple victories text"
-  },
-
-  "defeat": "derrota",
-  "@defeat": {
-    "description": "Single defeat text"
   },
 
   "defeats": "derrotas",

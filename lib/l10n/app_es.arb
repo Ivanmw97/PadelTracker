@@ -698,17 +698,6 @@
     "description": "Add match button text"
   },
 
-  "noMatchesInPeriod": "No hay partidos en este periodo",
-  "@noMatchesInPeriod": {
-    "description": "Empty state title when no matches in selected time period"
-  },
-
-  "tryDifferentTimeRange": "Prueba seleccionando un rango de tiempo diferente",
-  "@tryDifferentTimeRange": {
-    "description": "Empty state subtitle suggesting different time range"
-  },
-
-
   "noDataToShow": "No hay datos para mostrar",
   "@noDataToShow": {
     "description": "Empty state title when no stats data available"
@@ -749,11 +738,6 @@
     "description": "Stats first-time user empty state title"
   },
 
-  "addMatchesToSeeStats": "Añade partidos para empezar a ver tus estadísticas de rendimiento",
-  "@addMatchesToSeeStats": {
-    "description": "Stats first-time user empty state subtitle"
-  },
-
   "noDataForThisPeriod": "No hay datos para este periodo",
   "@noDataForThisPeriod": {
     "description": "Stats filtered empty state title"
@@ -782,21 +766,6 @@
   "tournament": "Torneo",
   "@tournament": {
     "description": "Tournament match type"
-  },
-
-  "victory": "Victoria",
-  "@victory": {
-    "description": "Victory outcome text"
-  },
-
-  "defeat": "Derrota",
-  "@defeat": {
-    "description": "Defeat outcome text"
-  },
-
-  "draw": "Empate",
-  "@draw": {
-    "description": "Draw outcome text"
   },
 
   "straightSets": "Marcador",

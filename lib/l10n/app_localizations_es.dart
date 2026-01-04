@@ -115,7 +115,7 @@ class AppLocalizationsEs extends AppLocalizations {
       'Comienza a seguir tu trayectoria en el pádel';
 
   @override
-  String get noMatchesInPeriod => 'No hay partidos en este periodo';
+  String get noMatchesInPeriod => 'No hay partidos en este período';
 
   @override
   String get tryDifferentTimeRange =>
@@ -130,7 +130,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get addMatchesToSeeStats =>
-      'Añade partidos para empezar a ver tus estadísticas de rendimiento';
+      'Añade algunos partidos para ver tus estadísticas';
 
   @override
   String matchesCount(int count) {
@@ -237,13 +237,13 @@ class AppLocalizationsEs extends AppLocalizations {
   String get oneMatchPlayed => '1 partido jugado';
 
   @override
-  String get victory => 'Victoria';
+  String get victory => 'victoria';
 
   @override
   String get victories => 'victorias';
 
   @override
-  String get defeat => 'Derrota';
+  String get defeat => 'derrota';
 
   @override
   String get defeats => 'derrotas';

@@ -127,8 +127,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'Try selecting a different time range to see your stats';
 
   @override
-  String get addMatchesToSeeStats =>
-      'Add matches to start seeing your performance statistics';
+  String get addMatchesToSeeStats => 'Add some matches to see your stats';
 
   @override
   String matchesCount(int count) {
@@ -234,13 +233,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get oneMatchPlayed => '1 match played';
 
   @override
-  String get victory => 'Victory';
+  String get victory => 'victory';
 
   @override
   String get victories => 'victories';
 
   @override
-  String get defeat => 'Defeat';
+  String get defeat => 'defeat';
 
   @override
   String get defeats => 'defeats';
