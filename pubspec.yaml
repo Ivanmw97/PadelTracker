@@ -2,7 +2,7 @@ name: padel_tracker
 description: Padel tracking app
 publish_to: 'none'
 
-version: 0.1.0+1
+version: 1.0.1+2
 
 environment:
   sdk: ^3.9.2
