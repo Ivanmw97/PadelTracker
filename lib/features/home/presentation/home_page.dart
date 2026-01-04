@@ -212,7 +212,7 @@ class _HomePageState extends ConsumerState<HomePage> {
               const TimeRangeFilter(),
               const Spacer(),
               Text(
-                '${matches.length} matches',
+                AppLocalizations.of(context)!.matchesPlural(matches.length),
                 style: TextStyle(
                   fontSize: 14,
                   color: const Color(0xFF1D1D1F).withValues(alpha: 0.6),
