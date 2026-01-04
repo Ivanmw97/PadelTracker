@@ -126,7 +126,6 @@ class _AddMatchPageState extends ConsumerState<AddMatchPage> {
     });
   }
 
-
   bool get _canAddSet {
     if (_isOfficialMatch) {
       // Official matches: sets are auto-managed, no manual add

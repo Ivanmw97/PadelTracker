@@ -56,7 +56,6 @@ class MatchCard extends StatelessWidget {
     }
   }
 
-
   String _getOutcomeText(MatchOutcome outcome, BuildContext context) {
     switch (outcome) {
       case MatchOutcome.win:
@@ -223,7 +222,9 @@ class MatchCard extends StatelessWidget {
                             style: TextStyle(
                               fontSize: 15,
                               fontWeight: FontWeight.w400,
-                              color: const Color(0xFF1D1D1F).withValues(alpha: 0.6),
+                              color: const Color(
+                                0xFF1D1D1F,
+                              ).withValues(alpha: 0.6),
                               letterSpacing: -0.1,
                             ),
                             overflow: TextOverflow.ellipsis,
