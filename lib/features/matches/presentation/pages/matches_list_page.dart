@@ -50,16 +50,11 @@ class _MatchesListPageState extends ConsumerState<MatchesListPage> {
               onPressed: () async {
                 await Navigator.push(
                   context,
-                  MaterialPageRoute(
-                    builder: (context) => const AddMatchPage(),
-                  ),
+                  MaterialPageRoute(builder: (context) => const AddMatchPage()),
                 );
               },
               backgroundColor: const Color(0xFF007AFF),
-              child: const Icon(
-                Icons.add,
-                color: Colors.white,
-              ),
+              child: const Icon(Icons.add, color: Colors.white),
             )
           : null,
     );

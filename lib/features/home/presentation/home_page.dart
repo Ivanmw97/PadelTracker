@@ -238,7 +238,9 @@ class _HomePageState extends ConsumerState<HomePage> {
               buildSetScores: _buildSetScores,
             ),
             // Only show details if at least one of duration or location is present
-            if (lastMatch.duration != null || (lastMatch.location != null && lastMatch.location!.isNotEmpty)) ...[
+            if (lastMatch.duration != null ||
+                (lastMatch.location != null &&
+                    lastMatch.location!.isNotEmpty)) ...[
               const SizedBox(height: 20),
               Row(
                 children: [
@@ -246,10 +248,12 @@ class _HomePageState extends ConsumerState<HomePage> {
                     Expanded(
                       child: DurationCardWidget(duration: lastMatch.duration),
                     ),
-                    if (lastMatch.location != null && lastMatch.location!.isNotEmpty)
+                    if (lastMatch.location != null &&
+                        lastMatch.location!.isNotEmpty)
                       const SizedBox(width: 16),
                   ],
-                  if (lastMatch.location != null && lastMatch.location!.isNotEmpty)
+                  if (lastMatch.location != null &&
+                      lastMatch.location!.isNotEmpty)
                     Expanded(
                       child: LocationCardWidget(location: lastMatch.location),
                     ),
