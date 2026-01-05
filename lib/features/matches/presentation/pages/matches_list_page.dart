@@ -43,31 +43,25 @@ class _MatchesListPageState extends ConsumerState<MatchesListPage> {
         backgroundColor: const Color(0xFFF8F8F8),
         elevation: 0,
         centerTitle: false,
-        actions: matchesState.matches.isNotEmpty
-            ? [
-                TextButton(
-                  onPressed: () async {
-                    await Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const AddMatchPage(),
-                      ),
-                    );
-                  },
-                  child: Text(
-                    AppLocalizations.of(context)!.newMatch,
-                    style: const TextStyle(
-                      fontSize: 17,
-                      fontWeight: FontWeight.w400,
-                      color: Color(0xFF007AFF),
-                    ),
-                  ),
-                ),
-                const SizedBox(width: 8),
-              ]
-            : null,
       ),
       body: _buildBody(matchesState, filteredMatches),
+      floatingActionButton: matchesState.matches.isNotEmpty
+          ? FloatingActionButton(
+              onPressed: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AddMatchPage(),
+                  ),
+                );
+              },
+              backgroundColor: const Color(0xFF007AFF),
+              child: const Icon(
+                Icons.add,
+                color: Colors.white,
+              ),
+            )
+          : null,
     );
   }
 
