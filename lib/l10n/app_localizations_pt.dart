@@ -192,6 +192,9 @@ class AppLocalizationsPt extends AppLocalizations {
   String get resultsDistribution => 'Distribuição de Resultados';
 
   @override
+  String get matchTypesBreakdown => 'Tipos de Jogos';
+
+  @override
   String get wins => 'Vitórias';
 
   @override

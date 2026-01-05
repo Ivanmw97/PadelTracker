@@ -188,6 +188,9 @@ class AppLocalizationsSv extends AppLocalizations {
   String get resultsDistribution => 'Resultatfördelning';
 
   @override
+  String get matchTypesBreakdown => 'Matchtyper';
+
+  @override
   String get wins => 'Vinster';
 
   @override

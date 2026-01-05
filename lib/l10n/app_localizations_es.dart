@@ -192,6 +192,9 @@ class AppLocalizationsEs extends AppLocalizations {
   String get resultsDistribution => 'Distribución de Resultados';
 
   @override
+  String get matchTypesBreakdown => 'Tipos de Partidos';
+
+  @override
   String get wins => 'Victorias';
 
   @override

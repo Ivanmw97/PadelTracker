@@ -78,6 +78,14 @@
   "yourMatchTypes": "I tuoi tipi di partita",
 
   "resultsDistribution": "Distribuzione dei risultati",
+  "@resultsDistribution": {
+    "description": "Results distribution widget title"
+  },
+  
+  "matchTypesBreakdown": "Tipi di Partite",
+  "@matchTypesBreakdown": {
+    "description": "Match types breakdown widget title"
+  },
 
   "wins": "Vittorie",
   "losses": "Sconfitte",

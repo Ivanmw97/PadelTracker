@@ -88,7 +88,7 @@ class PerformanceInsightsWidget extends StatelessWidget {
     Color color,
   ) {
     return Container(
-      height: 150, // Increased height to prevent text overflow
+      height: 150,
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: color.withValues(alpha: 0.1),

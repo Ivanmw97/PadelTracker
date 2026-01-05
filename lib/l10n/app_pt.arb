@@ -277,6 +277,11 @@
     "description": "Results distribution widget title"
   },
   
+  "matchTypesBreakdown": "Tipos de Jogos",
+  "@matchTypesBreakdown": {
+    "description": "Match types breakdown widget title"
+  },
+  
   "wins": "Vitórias",
   "@wins": {
     "description": "Wins label in stats"

@@ -448,6 +448,12 @@ abstract class AppLocalizations {
   /// **'Results Distribution'**
   String get resultsDistribution;
 
+  /// Match types breakdown widget title
+  ///
+  /// In en, this message translates to:
+  /// **'Match Types'**
+  String get matchTypesBreakdown;
+
   /// Wins label in stats
   ///
   /// In en, this message translates to:
