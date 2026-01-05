@@ -175,6 +175,8 @@ class _MatchDetailPageState extends ConsumerState<MatchDetailPage> {
                 const SizedBox(height: 20),
                 PerformanceCardWidget(match: currentMatch),
                 const SizedBox(height: 20),
+                // Add bottom safe area padding to prevent content cutoff on Samsung devices
+                SizedBox(height: MediaQuery.of(context).padding.bottom),
               ],
             ),
           ),
