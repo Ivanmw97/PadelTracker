@@ -1,9 +1,9 @@
 import 'package:hive/hive.dart';
-import 'package:padel_tracker/data/models/match_result_entity.dart';
-import 'package:padel_tracker/data/models/player_entity.dart';
-import 'package:padel_tracker/domain/enums/match_type.dart';
-import 'package:padel_tracker/domain/enums/playing_side.dart';
-import 'package:padel_tracker/domain/models/match.dart';
+import 'package:delyo/data/models/match_result_entity.dart';
+import 'package:delyo/data/models/player_entity.dart';
+import 'package:delyo/domain/enums/match_type.dart';
+import 'package:delyo/domain/enums/playing_side.dart';
+import 'package:delyo/domain/models/match.dart';
 
 part 'match_entity.g.dart';
 

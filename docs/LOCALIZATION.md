@@ -1,6 +1,6 @@
 # Localization Guide
 
-PadelTracker supports multiple languages through Flutter's official internationalization (i18n) system. This document provides comprehensive information about the localization implementation and how to contribute new translations.
+DelYo supports multiple languages through Flutter's official internationalization (i18n) system. This document provides comprehensive information about the localization implementation and how to contribute new translations.
 
 ## 🌍 Supported Languages
 

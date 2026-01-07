@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:padel_tracker/domain/models/match.dart';
-import 'package:padel_tracker/domain/repositories/match_repository.dart';
-import 'package:padel_tracker/features/matches/state/matches_state.dart';
+import 'package:delyo/domain/models/match.dart';
+import 'package:delyo/domain/repositories/match_repository.dart';
+import 'package:delyo/features/matches/state/matches_state.dart';
 
 /// StateNotifier for managing matches
 ///

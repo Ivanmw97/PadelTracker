@@ -1,5 +1,5 @@
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:padel_tracker/data/models/match_entity.dart';
+import 'package:delyo/data/models/match_entity.dart';
 
 /// Centralized Hive box management
 /// Provides access to all Hive boxes used in the application

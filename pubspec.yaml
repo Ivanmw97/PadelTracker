@@ -1,4 +1,4 @@
-name: padel_tracker
+name: delyo
 description: Padel tracking app
 publish_to: 'none'
 
@@ -41,7 +41,7 @@ dev_dependencies:
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: assets/icon/padel_tracker_icon.png
+  image_path: assets/icon/delyo_icon.png
   remove_alpha_ios: true
 
 flutter:

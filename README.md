@@ -1,14 +1,14 @@
-# PadelTracker
+# DelYo
 
 Track your padel journey with simplicity and privacy.
 
 ## About
 
-PadelTracker helps you build a complete history of your padel matches. Whether you're playing friendly games, competing in leagues, or participating in tournaments, keep track of your progress without the hassle of complex features or mandatory sign-ups.
+DelYo helps you build a complete history of your padel matches. Whether you're playing friendly games, competing in leagues, or participating in tournaments, keep track of your progress without the hassle of complex features or mandatory sign-ups.
 
 ## 🌍 Multi-Language Support
 
-PadelTracker is available in **6 languages** with complete localization:
+DelYo is available in **6 languages** with complete localization:
 
 - 🇺🇸 **English** - Default language
 - 🇪🇸 **Spanish (Español)** - Complete with padel terminology
@@ -19,7 +19,7 @@ PadelTracker is available in **6 languages** with complete localization:
 
 The app automatically detects your device's language and displays the interface in your preferred language. All features, including performance feedback, statistics, and error messages, are fully translated.
 
-**More languages coming soon!** We're continuously working to add support for additional languages to make PadelTracker accessible to padel players worldwide.
+**More languages coming soon!** We're continuously working to add support for additional languages to make DelYo accessible to padel players worldwide.
 
 ## Features
 
@@ -40,7 +40,7 @@ The app automatically detects your device's language and displays the interface 
 - Last year
 - All matches
 
-### Why PadelTracker
+### Why DelYo
 - **Start Immediately**: No accounts, no setup - just download and begin tracking
 - **Your Data, Your Device**: Everything stays private on your phone
 - **Works Everywhere**: No internet required - track matches anywhere
@@ -49,7 +49,7 @@ The app automatically detects your device's language and displays the interface 
 
 ## Download and Install
 
-PadelTracker will be available on:
+DelYo will be available on:
 - **App Store** (iOS)
 - **Google Play Store** (Android)
 

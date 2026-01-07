@@ -1,4 +1,4 @@
-package com.padeltracker.padel_tracker
+package com.delyo.delyo
 
 import io.flutter.embedding.android.FlutterActivity
 

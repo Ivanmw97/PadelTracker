@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:padel_tracker/domain/enums/playing_side.dart';
+import 'package:delyo/domain/enums/playing_side.dart';
 
 void main() {
   group('PlayingSide', () {

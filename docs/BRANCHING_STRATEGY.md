@@ -1,4 +1,4 @@
-# PadelTracker - Branching Strategy & CI/CD
+# DelYo - Branching Strategy & CI/CD
 
 ## 🌳 Branching Strategy
 

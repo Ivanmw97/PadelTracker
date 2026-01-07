@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:padel_tracker/domain/models/match.dart';
-import 'package:padel_tracker/domain/enums/match_type.dart';
-import 'package:padel_tracker/features/matches/presentation/models/match_outcome.dart';
-import 'package:padel_tracker/features/matches/presentation/utils/match_outcome_helper.dart';
-import 'package:padel_tracker/l10n/app_localizations.dart';
+import 'package:delyo/domain/models/match.dart';
+import 'package:delyo/domain/enums/match_type.dart';
+import 'package:delyo/features/matches/presentation/models/match_outcome.dart';
+import 'package:delyo/features/matches/presentation/utils/match_outcome_helper.dart';
+import 'package:delyo/l10n/app_localizations.dart';
 
 class MatchCard extends StatelessWidget {
   final Match match;

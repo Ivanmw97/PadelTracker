@@ -2,19 +2,19 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:padel_tracker/domain/models/match.dart' as domain;
-import 'package:padel_tracker/domain/models/match_result.dart';
-import 'package:padel_tracker/domain/models/padel_set.dart';
-import 'package:padel_tracker/domain/models/player.dart';
-import 'package:padel_tracker/domain/enums/match_type.dart';
-import 'package:padel_tracker/domain/enums/playing_side.dart';
-import 'package:padel_tracker/features/matches/presentation/pages/match_detail_page.dart';
-import 'package:padel_tracker/features/matches/presentation/widgets/add_match/date_picker_field.dart';
-import 'package:padel_tracker/features/matches/state/matches_provider.dart';
-import 'package:padel_tracker/features/matches/state/matches_notifier.dart';
-import 'package:padel_tracker/domain/repositories/match_repository.dart';
-import 'package:padel_tracker/l10n/app_localizations.dart';
-import 'package:padel_tracker/utils/date_formatter.dart';
+import 'package:delyo/domain/models/match.dart' as domain;
+import 'package:delyo/domain/models/match_result.dart';
+import 'package:delyo/domain/models/padel_set.dart';
+import 'package:delyo/domain/models/player.dart';
+import 'package:delyo/domain/enums/match_type.dart';
+import 'package:delyo/domain/enums/playing_side.dart';
+import 'package:delyo/features/matches/presentation/pages/match_detail_page.dart';
+import 'package:delyo/features/matches/presentation/widgets/add_match/date_picker_field.dart';
+import 'package:delyo/features/matches/state/matches_provider.dart';
+import 'package:delyo/features/matches/state/matches_notifier.dart';
+import 'package:delyo/domain/repositories/match_repository.dart';
+import 'package:delyo/l10n/app_localizations.dart';
+import 'package:delyo/utils/date_formatter.dart';
 
 // Mock repository for testing
 class MockMatchRepository implements MatchRepository {

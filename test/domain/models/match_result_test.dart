@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:padel_tracker/domain/models/match_result.dart';
-import 'package:padel_tracker/domain/models/padel_set.dart';
+import 'package:delyo/domain/models/match_result.dart';
+import 'package:delyo/domain/models/padel_set.dart';
 
 void main() {
   group('MatchResult', () {

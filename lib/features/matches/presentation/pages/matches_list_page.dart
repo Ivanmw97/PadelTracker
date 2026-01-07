@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:padel_tracker/features/matches/presentation/pages/add_match_page.dart';
-import 'package:padel_tracker/features/matches/presentation/pages/match_detail_page.dart';
-import 'package:padel_tracker/features/matches/state/matches_provider.dart';
-import 'package:padel_tracker/features/shared/state/filtered_matches_provider.dart';
-import 'package:padel_tracker/features/shared/widgets/time_range_filter.dart';
-import 'package:padel_tracker/features/shared/widgets/empty_state_examples.dart';
-import 'package:padel_tracker/features/matches/presentation/widgets/match_card.dart';
-import 'package:padel_tracker/domain/models/match.dart';
-import 'package:padel_tracker/l10n/app_localizations.dart';
+import 'package:delyo/features/matches/presentation/pages/add_match_page.dart';
+import 'package:delyo/features/matches/presentation/pages/match_detail_page.dart';
+import 'package:delyo/features/matches/state/matches_provider.dart';
+import 'package:delyo/features/shared/state/filtered_matches_provider.dart';
+import 'package:delyo/features/shared/widgets/time_range_filter.dart';
+import 'package:delyo/features/shared/widgets/empty_state_examples.dart';
+import 'package:delyo/features/matches/presentation/widgets/match_card.dart';
+import 'package:delyo/domain/models/match.dart';
+import 'package:delyo/l10n/app_localizations.dart';
 
 class MatchesListPage extends ConsumerStatefulWidget {
   const MatchesListPage({super.key});

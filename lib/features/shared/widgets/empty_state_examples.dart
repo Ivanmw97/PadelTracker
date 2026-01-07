@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:padel_tracker/features/shared/widgets/empty_state.dart';
-import 'package:padel_tracker/l10n/app_localizations.dart';
+import 'package:delyo/features/shared/widgets/empty_state.dart';
+import 'package:delyo/l10n/app_localizations.dart';
 
 /// Example implementations of EmptyState for different screens
 /// These demonstrate the three main empty state patterns in the app

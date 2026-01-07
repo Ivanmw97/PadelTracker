@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:padel_tracker/domain/enums/match_type.dart';
-import 'package:padel_tracker/l10n/app_localizations.dart';
+import 'package:delyo/domain/enums/match_type.dart';
+import 'package:delyo/l10n/app_localizations.dart';
 
 class MatchTypesBreakdownWidget extends StatelessWidget {
   final List matches;

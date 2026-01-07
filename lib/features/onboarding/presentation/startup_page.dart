@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:padel_tracker/features/onboarding/repositories/onboarding_repository.dart';
-import 'package:padel_tracker/features/onboarding/presentation/welcome_screen.dart';
-import 'package:padel_tracker/features/onboarding/presentation/onboarding_page.dart';
-import 'package:padel_tracker/presentation/navigation/main_navigation_page.dart';
+import 'package:delyo/features/onboarding/repositories/onboarding_repository.dart';
+import 'package:delyo/features/onboarding/presentation/welcome_screen.dart';
+import 'package:delyo/features/onboarding/presentation/onboarding_page.dart';
+import 'package:delyo/presentation/navigation/main_navigation_page.dart';
 
 /// Startup page that decides whether to show onboarding or go directly to home
 ///

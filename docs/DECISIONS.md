@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document captures key architectural and design decisions made during the development of PadelTracker, including the rationale behind each choice and alternatives considered.
+This document captures key architectural and design decisions made during the development of DelYo, including the rationale behind each choice and alternatives considered.
 
 ## Technology Stack
 

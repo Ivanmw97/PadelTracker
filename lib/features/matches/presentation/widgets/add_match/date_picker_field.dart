@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:padel_tracker/l10n/app_localizations.dart';
-import 'package:padel_tracker/utils/date_formatter.dart';
+import 'package:delyo/l10n/app_localizations.dart';
+import 'package:delyo/utils/date_formatter.dart';
 
 /// A custom date picker field widget that opens a date picker when tapped
 /// Follows Material Design conventions and integrates with the app's styling

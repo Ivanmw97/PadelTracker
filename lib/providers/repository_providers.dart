@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:padel_tracker/data/repositories/match_repository_hive.dart';
-import 'package:padel_tracker/domain/repositories/match_repository.dart';
+import 'package:delyo/data/repositories/match_repository_hive.dart';
+import 'package:delyo/domain/repositories/match_repository.dart';
 
 /// Provider for MatchRepository
 ///

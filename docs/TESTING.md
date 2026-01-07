@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document provides comprehensive information about the test suite for PadelTracker, a Flutter mobile application for tracking padel matches. The test suite focuses on unit and logic tests, ensuring the reliability of core business functionality.
+This document provides comprehensive information about the test suite for DelYo, a Flutter mobile application for tracking padel matches. The test suite focuses on unit and logic tests, ensuring the reliability of core business functionality.
 
 ## Test Philosophy
 
@@ -384,4 +384,4 @@ flutter test test/domain/
 - Check test setup and teardown methods
 - Verify test data matches expected format
 
-This documentation serves as a comprehensive guide for understanding, maintaining, and extending the PadelTracker test suite.
+This documentation serves as a comprehensive guide for understanding, maintaining, and extending the DelYo test suite.
