@@ -140,7 +140,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                   child: Text(
                     AppLocalizations.of(context)!.welcomeTo,
                     style: const TextStyle(
-                      fontSize: 20,
+                      fontSize: 25,
                       fontWeight: FontWeight.w400,
                       color: Color(0xFF6B7280),
                       letterSpacing: 0.2,
