@@ -21,6 +21,22 @@ The app automatically detects your device's language and displays the interface 
 
 **More languages coming soon!** We're continuously working to add support for additional languages to make DelYo accessible to padel players worldwide.
 
+## Screenshots
+
+![Home](docs/screenshots/ios/en/home_en.png)
+
+![My Matches](docs/screenshots/ios/en/my_matches_en.png)
+
+![Match Detail](docs/screenshots/ios/en/match_detail_en.png)
+
+![Add Match](docs/screenshots/ios/en/add_match_en.png)
+
+![Edit Match](docs/screenshots/ios/en/edit_match_en.png)
+
+![Stats 1](docs/screenshots/ios/en/stats_1_en.png)
+
+![Stats 2](docs/screenshots/ios/en/stats_2_en.png)
+
 ## Features
 
 ### Match Management
