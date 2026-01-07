@@ -27,35 +27,35 @@ The app automatically detects your device's language and displays the interface 
   <tr>
     <td align="center">
       <strong>Home</strong><br>
-      <img src="docs/screenshots/ios/en/home_en.png" width="1290" alt="">
+      <img src="docs/screenshots/ios/en/home_en.png" width="250" alt="">
     </td>
     <td align="center">
       <strong>My Matches</strong><br>
-      <img src="docs/screenshots/ios/en/my_matches_en.png" width="1290" alt="">
+      <img src="docs/screenshots/ios/en/my_matches_en.png" width="250" alt="">
     </td>
     <td align="center">
       <strong>Match Detail</strong><br>
-      <img src="docs/screenshots/ios/en/match_detail_en.png" width="1290" alt="">
+      <img src="docs/screenshots/ios/en/match_detail_en.png" width="250" alt="">
     </td>
   </tr>
   <tr>
     <td align="center">
       <strong>Add Match</strong><br>
-      <img src="docs/screenshots/ios/en/add_match_en.png" width="1290" alt="">
+      <img src="docs/screenshots/ios/en/add_match_en.png" width="250" alt="">
     </td>
     <td align="center">
       <strong>Edit Match</strong><br>
-      <img src="docs/screenshots/ios/en/edit_match_en.png" width="1290" alt="">
+      <img src="docs/screenshots/ios/en/edit_match_en.png" width="250" alt="">
     </td>
     <td align="center">
       <strong>Stats (Overview)</strong><br>
-      <img src="docs/screenshots/ios/en/stats_1_en.png" width="1290" alt="">
+      <img src="docs/screenshots/ios/en/stats_1_en.png" width="250" alt="">
     </td>
   </tr>
   <tr>
     <td align="center">
       <strong>Stats (Details)</strong><br>
-      <img src="docs/screenshots/ios/en/stats_2_en.png" width="1290" alt="">
+      <img src="docs/screenshots/ios/en/stats_2_en.png" width="250" alt="">
     </td>
   </tr>
 </table>
