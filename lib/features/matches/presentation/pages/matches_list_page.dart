@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:padel_tracker/features/matches/presentation/pages/add_match_page.dart';
-import 'package:padel_tracker/features/matches/presentation/pages/match_detail_page.dart';
-import 'package:padel_tracker/features/matches/state/matches_provider.dart';
-import 'package:padel_tracker/features/shared/state/filtered_matches_provider.dart';
-import 'package:padel_tracker/features/shared/widgets/time_range_filter.dart';
-import 'package:padel_tracker/features/shared/widgets/empty_state_examples.dart';
-import 'package:padel_tracker/features/matches/presentation/widgets/match_card.dart';
-import 'package:padel_tracker/domain/models/match.dart';
-import 'package:padel_tracker/l10n/app_localizations.dart';
+import 'package:delyo/features/matches/presentation/pages/add_match_page.dart';
+import 'package:delyo/features/matches/presentation/pages/match_detail_page.dart';
+import 'package:delyo/features/matches/state/matches_provider.dart';
+import 'package:delyo/features/shared/state/filtered_matches_provider.dart';
+import 'package:delyo/features/shared/widgets/time_range_filter.dart';
+import 'package:delyo/features/shared/widgets/empty_state_examples.dart';
+import 'package:delyo/features/matches/presentation/widgets/match_card.dart';
+import 'package:delyo/domain/models/match.dart';
+import 'package:delyo/l10n/app_localizations.dart';
 
 class MatchesListPage extends ConsumerStatefulWidget {
   const MatchesListPage({super.key});
@@ -43,31 +43,20 @@ class _MatchesListPageState extends ConsumerState<MatchesListPage> {
         backgroundColor: const Color(0xFFF8F8F8),
         elevation: 0,
         centerTitle: false,
-        actions: matchesState.matches.isNotEmpty
-            ? [
-                TextButton(
-                  onPressed: () async {
-                    await Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const AddMatchPage(),
-                      ),
-                    );
-                  },
-                  child: Text(
-                    AppLocalizations.of(context)!.newMatch,
-                    style: const TextStyle(
-                      fontSize: 17,
-                      fontWeight: FontWeight.w400,
-                      color: Color(0xFF007AFF),
-                    ),
-                  ),
-                ),
-                const SizedBox(width: 8),
-              ]
-            : null,
       ),
       body: _buildBody(matchesState, filteredMatches),
+      floatingActionButton: matchesState.matches.isNotEmpty
+          ? FloatingActionButton(
+              onPressed: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const AddMatchPage()),
+                );
+              },
+              backgroundColor: const Color(0xFF007AFF),
+              child: const Icon(Icons.add, color: Colors.white),
+            )
+          : null,
     );
   }
 

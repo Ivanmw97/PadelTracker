@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:padel_tracker/features/matches/state/matches_provider.dart';
-import 'package:padel_tracker/features/shared/state/filtered_matches_provider.dart';
-import 'package:padel_tracker/features/shared/widgets/time_range_filter.dart';
-import 'package:padel_tracker/features/stats/presentation/widgets/results_distribution_widget.dart';
-import 'package:padel_tracker/features/stats/presentation/widgets/match_types_breakdown_widget.dart';
-import 'package:padel_tracker/features/stats/presentation/widgets/performance_insights_widget.dart';
-import 'package:padel_tracker/features/shared/widgets/empty_state_examples.dart';
-import 'package:padel_tracker/features/matches/presentation/pages/add_match_page.dart';
-import 'package:padel_tracker/features/stats/presentation/widgets/section_header_widget.dart';
-import 'package:padel_tracker/l10n/app_localizations.dart';
+import 'package:delyo/features/matches/state/matches_provider.dart';
+import 'package:delyo/features/shared/state/filtered_matches_provider.dart';
+import 'package:delyo/features/shared/widgets/time_range_filter.dart';
+import 'package:delyo/features/stats/presentation/widgets/results_distribution_widget.dart';
+import 'package:delyo/features/stats/presentation/widgets/match_types_breakdown_widget.dart';
+import 'package:delyo/features/stats/presentation/widgets/performance_insights_widget.dart';
+import 'package:delyo/features/shared/widgets/empty_state_examples.dart';
+import 'package:delyo/features/matches/presentation/pages/add_match_page.dart';
+import 'package:delyo/features/stats/presentation/widgets/section_header_widget.dart';
+import 'package:delyo/l10n/app_localizations.dart';
 
 class StatsPage extends ConsumerWidget {
   const StatsPage({super.key});

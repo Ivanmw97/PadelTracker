@@ -9,7 +9,7 @@ class AppLocalizationsSv extends AppLocalizations {
   AppLocalizationsSv([String locale = 'sv']) : super(locale);
 
   @override
-  String get appTitle => 'Padel Tracker';
+  String get appTitle => 'DelYo';
 
   @override
   String get homeTitle => 'Hem';
@@ -186,6 +186,9 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get resultsDistribution => 'Resultatfördelning';
+
+  @override
+  String get matchTypesBreakdown => 'Matchtyper';
 
   @override
   String get wins => 'Vinster';
@@ -488,4 +491,15 @@ class AppLocalizationsSv extends AppLocalizations {
   @override
   String get performanceRatingHelper =>
       'Hur kände du dig om din prestation i denna match?';
+
+  @override
+  String matchesPlural(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count matcher',
+      one: '1 match',
+    );
+    return '$_temp0';
+  }
 }

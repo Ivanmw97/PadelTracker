@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:padel_tracker/domain/enums/match_type.dart';
+import 'package:delyo/domain/enums/match_type.dart';
 
 void main() {
   group('MatchType', () {

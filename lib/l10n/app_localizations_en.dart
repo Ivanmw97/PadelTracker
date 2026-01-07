@@ -9,7 +9,7 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get appTitle => 'Padel Tracker';
+  String get appTitle => 'DelYo';
 
   @override
   String get homeTitle => 'Home';
@@ -127,8 +127,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'Try selecting a different time range to see your stats';
 
   @override
-  String get addMatchesToSeeStats =>
-      'Add matches to start seeing your performance statistics';
+  String get addMatchesToSeeStats => 'Add some matches to see your stats';
 
   @override
   String matchesCount(int count) {
@@ -189,6 +188,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get resultsDistribution => 'Results Distribution';
 
   @override
+  String get matchTypesBreakdown => 'Match Types';
+
+  @override
   String get wins => 'Wins';
 
   @override
@@ -234,13 +236,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get oneMatchPlayed => '1 match played';
 
   @override
-  String get victory => 'Victory';
+  String get victory => 'victory';
 
   @override
   String get victories => 'victories';
 
   @override
-  String get defeat => 'Defeat';
+  String get defeat => 'defeat';
 
   @override
   String get defeats => 'defeats';
@@ -489,4 +491,15 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get performanceRatingHelper =>
       'How did you feel about your performance in this match?';
+
+  @override
+  String matchesPlural(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count matches',
+      one: '1 match',
+    );
+    return '$_temp0';
+  }
 }

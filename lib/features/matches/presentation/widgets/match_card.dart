@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:padel_tracker/domain/models/match.dart';
-import 'package:padel_tracker/domain/enums/match_type.dart';
-import 'package:padel_tracker/features/matches/presentation/models/match_outcome.dart';
-import 'package:padel_tracker/features/matches/presentation/utils/match_outcome_helper.dart';
-import 'package:padel_tracker/l10n/app_localizations.dart';
+import 'package:delyo/domain/models/match.dart';
+import 'package:delyo/domain/enums/match_type.dart';
+import 'package:delyo/features/matches/presentation/models/match_outcome.dart';
+import 'package:delyo/features/matches/presentation/utils/match_outcome_helper.dart';
+import 'package:delyo/l10n/app_localizations.dart';
 
 class MatchCard extends StatelessWidget {
   final Match match;
@@ -23,14 +23,25 @@ class MatchCard extends StatelessWidget {
     }
   }
 
-  Color _getOutcomeColor(MatchOutcome outcome) {
+  Color _getResultColor(MatchOutcome outcome) {
     switch (outcome) {
       case MatchOutcome.win:
-        return const Color(0xFF34C759);
+        return const Color(0xFF34C759); // Green
       case MatchOutcome.loss:
-        return const Color(0xFFFF3B30);
+        return const Color(0xFFFF3B30); // Red
       case MatchOutcome.draw:
-        return const Color(0xFFFF9500);
+        return const Color(0xFF616161); // Grey
+    }
+  }
+
+  Color _getResultBackgroundColor(MatchOutcome outcome) {
+    switch (outcome) {
+      case MatchOutcome.win:
+        return const Color(0xFF49D36C); // Light Green
+      case MatchOutcome.loss:
+        return const Color(0xFFFF3B30); // Light Red
+      case MatchOutcome.draw:
+        return const Color(0xFF7C7A7A); // Light Grey
     }
   }
 
@@ -106,7 +117,7 @@ class MatchCard extends StatelessWidget {
               child: Container(
                 width: 4,
                 decoration: BoxDecoration(
-                  color: _getOutcomeColor(outcome),
+                  color: _getResultBackgroundColor(outcome),
                   borderRadius: const BorderRadius.only(
                     topLeft: Radius.circular(20),
                     bottomLeft: Radius.circular(20),
@@ -161,7 +172,7 @@ class MatchCard extends StatelessWidget {
                               vertical: 3,
                             ),
                             decoration: BoxDecoration(
-                              color: _getOutcomeColor(
+                              color: _getResultBackgroundColor(
                                 outcome,
                               ).withValues(alpha: 0.12),
                               borderRadius: BorderRadius.circular(6),
@@ -171,7 +182,7 @@ class MatchCard extends StatelessWidget {
                               style: TextStyle(
                                 fontSize: 10,
                                 fontWeight: FontWeight.w700,
-                                color: _getOutcomeColor(outcome),
+                                color: _getResultColor(outcome),
                                 letterSpacing: 0.5,
                               ),
                             ),

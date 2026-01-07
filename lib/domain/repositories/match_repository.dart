@@ -1,4 +1,4 @@
-import 'package:padel_tracker/domain/models/match.dart';
+import 'package:delyo/domain/models/match.dart';
 
 /// Repository contract for managing padel matches
 ///

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:padel_tracker/features/onboarding/repositories/onboarding_repository.dart';
-import 'package:padel_tracker/presentation/navigation/main_navigation_page.dart';
-import 'package:padel_tracker/l10n/app_localizations.dart';
+import 'package:delyo/features/onboarding/repositories/onboarding_repository.dart';
+import 'package:delyo/presentation/navigation/main_navigation_page.dart';
+import 'package:delyo/l10n/app_localizations.dart';
 
 /// Onboarding screen with 3 pages introducing the app features
 ///

@@ -1,8 +1,8 @@
 import 'package:flutter/widgets.dart';
-import 'package:padel_tracker/domain/enums/match_type.dart';
-import 'package:padel_tracker/domain/models/match.dart';
-import 'package:padel_tracker/features/matches/presentation/models/match_outcome.dart';
-import 'package:padel_tracker/l10n/app_localizations.dart';
+import 'package:delyo/domain/enums/match_type.dart';
+import 'package:delyo/domain/models/match.dart';
+import 'package:delyo/features/matches/presentation/models/match_outcome.dart';
+import 'package:delyo/l10n/app_localizations.dart';
 
 /// Helper function to determine the outcome of a match for UI display
 ///

@@ -1,6 +1,6 @@
 {
   "@@locale": "fr",
-  "appTitle": "Padel Tracker",
+  "appTitle": "DelYo",
   "@appTitle": {
     "description": "The title of the application"
   },
@@ -160,11 +160,6 @@
     "description": "Loss outcome text"
   },
   
-  "draw": "Match Nul",
-  "@draw": {
-    "description": "Draw outcome text"
-  },
-  
   "noMatchesYet": "Aucun match pour le moment",
   "@noMatchesYet": {
     "description": "Empty state message when no matches exist"
@@ -175,16 +170,6 @@
     "description": "Empty state subtitle for home page"
   },
   
-  "noMatchesInPeriod": "Aucun match dans cette période",
-  "@noMatchesInPeriod": {
-    "description": "Empty state message when no matches in selected time range"
-  },
-  
-  "tryDifferentTimeRange": "Essayez de sélectionner une période différente",
-  "@tryDifferentTimeRange": {
-    "description": "Empty state subtitle for filtered results"
-  },
-  
   "tapToAddFirstMatch": "Appuyez sur + pour ajouter votre premier match",
   "@tapToAddFirstMatch": {
     "description": "Empty state subtitle when no matches exist"
@@ -193,11 +178,6 @@
   "tryDifferentTimeRangeStats": "Essayez de sélectionner une période différente pour voir vos statistiques",
   "@tryDifferentTimeRangeStats": {
     "description": "Empty state subtitle for stats page"
-  },
-  
-  "addMatchesToSeeStats": "Ajoutez quelques matchs pour voir vos statistiques",
-  "@addMatchesToSeeStats": {
-    "description": "Empty state subtitle for stats page when no matches"
   },
   
   "matchesCount": "{count} matchs",
@@ -297,6 +277,11 @@
     "description": "Results distribution widget title"
   },
   
+  "matchTypesBreakdown": "Types de Matchs",
+  "@matchTypesBreakdown": {
+    "description": "Match types breakdown widget title"
+  },
+  
   "wins": "Victoires",
   "@wins": {
     "description": "Wins label in stats"
@@ -372,19 +357,9 @@
     "description": "Performance message for single match"
   },
 
-  "victory": "victoire",
-  "@victory": {
-    "description": "Single victory text"
-  },
-
   "victories": "victoires",
   "@victories": {
     "description": "Multiple victories text"
-  },
-
-  "defeat": "défaite",
-  "@defeat": {
-    "description": "Single defeat text"
   },
 
   "defeats": "défaites",
@@ -862,5 +837,16 @@
   "performanceRatingHelper": "Comment avez-vous ressenti votre performance dans ce match?",
   "@performanceRatingHelper": {
     "description": "Helper text for performance rating section"
+  },
+
+  "matchesPlural": "{count, plural, =1{1 match} other{{count} matchs}}",
+  "@matchesPlural": {
+    "description": "Pluralized matches count text",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
   }
 }

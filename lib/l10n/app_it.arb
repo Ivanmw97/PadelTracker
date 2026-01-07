@@ -1,7 +1,7 @@
 {
   "@@locale": "it",
 
-  "appTitle": "Padel Tracker",
+  "appTitle": "DelYo",
 
   "homeTitle": "Home",
   "myMatchesTitle": "Le mie partite",
@@ -44,18 +44,13 @@
 
   "win": "Vittoria",
   "loss": "Sconfitta",
-  "draw": "Pareggio",
 
   "noMatchesYet": "Nessuna partita ancora",
   "startTrackingJourney": "Inizia a tracciare il tuo percorso nel padel",
 
-  "noMatchesInPeriod": "Nessuna partita in questo periodo",
-  "tryDifferentTimeRange": "Prova a selezionare un intervallo di tempo diverso",
-
   "tapToAddFirstMatch": "Tocca + per aggiungere la tua prima partita",
 
   "tryDifferentTimeRangeStats": "Prova a selezionare un intervallo di tempo diverso per vedere le statistiche",
-  "addMatchesToSeeStats": "Aggiungi alcune partite per vedere le statistiche",
 
   "matchesCount": "{count} partite",
 
@@ -83,6 +78,14 @@
   "yourMatchTypes": "I tuoi tipi di partita",
 
   "resultsDistribution": "Distribuzione dei risultati",
+  "@resultsDistribution": {
+    "description": "Results distribution widget title"
+  },
+  
+  "matchTypesBreakdown": "Tipi di Partite",
+  "@matchTypesBreakdown": {
+    "description": "Match types breakdown widget title"
+  },
 
   "wins": "Vittorie",
   "losses": "Sconfitte",
@@ -105,9 +108,7 @@
   "yourPadelJourneyBeginsHere": "Il tuo percorso nel padel inizia qui",
   "oneMatchPlayed": "1 partita giocata",
 
-  "victory": "vittoria",
   "victories": "vittorie",
-  "defeat": "sconfitta",
   "defeats": "sconfitte",
 
   "recentPerformance": "PRESTAZIONI RECENTI",
@@ -412,5 +413,16 @@
   "performanceRatingHelper": "Come ti sei sentito riguardo alla tua performance in questa partita?",
   "@performanceRatingHelper": {
     "description": "Helper text for performance rating section"
+  },
+
+  "matchesPlural": "{count, plural, =1{1 partita} other{{count} partite}}",
+  "@matchesPlural": {
+    "description": "Pluralized matches count text",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
   }
 }

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:padel_tracker/features/home/presentation/home_page.dart';
-import 'package:padel_tracker/features/matches/presentation/pages/matches_list_page.dart';
-import 'package:padel_tracker/features/stats/presentation/stats_page.dart';
-import 'package:padel_tracker/l10n/app_localizations.dart';
+import 'package:delyo/features/home/presentation/home_page.dart';
+import 'package:delyo/features/matches/presentation/pages/matches_list_page.dart';
+import 'package:delyo/features/stats/presentation/stats_page.dart';
+import 'package:delyo/l10n/app_localizations.dart';
 
 class MainNavigationPage extends StatefulWidget {
   const MainNavigationPage({super.key});

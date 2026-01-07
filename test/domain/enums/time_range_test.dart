@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:padel_tracker/domain/enums/time_range.dart';
-import 'package:padel_tracker/l10n/app_localizations.dart';
+import 'package:delyo/domain/enums/time_range.dart';
+import 'package:delyo/l10n/app_localizations.dart';
 
 void main() {
   group('TimeRange', () {

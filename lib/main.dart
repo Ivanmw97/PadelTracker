@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:padel_tracker/data/hive/hive_initializer.dart';
-import 'package:padel_tracker/features/onboarding/presentation/startup_page.dart';
-import 'package:padel_tracker/l10n/app_localizations.dart';
+import 'package:delyo/data/hive/hive_initializer.dart';
+import 'package:delyo/features/onboarding/presentation/startup_page.dart';
+import 'package:delyo/l10n/app_localizations.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Padel Tracker',
+      title: 'DelYo',
       localizationsDelegates: const [
         AppLocalizations.delegate,
         GlobalMaterialLocalizations.delegate,

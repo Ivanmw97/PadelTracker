@@ -109,7 +109,7 @@ abstract class AppLocalizations {
   /// The title of the application
   ///
   /// In en, this message translates to:
-  /// **'Padel Tracker'**
+  /// **'DelYo'**
   String get appTitle;
 
   /// Title for the home page
@@ -316,13 +316,13 @@ abstract class AppLocalizations {
   /// **'Start tracking your padel journey'**
   String get startTrackingJourney;
 
-  /// Empty state title when no matches in selected time period
+  /// Empty state message when no matches in selected time range
   ///
   /// In en, this message translates to:
   /// **'No matches in this period'**
   String get noMatchesInPeriod;
 
-  /// Empty state subtitle suggesting different time range
+  /// Empty state subtitle for filtered results
   ///
   /// In en, this message translates to:
   /// **'Try selecting a different time range'**
@@ -340,10 +340,10 @@ abstract class AppLocalizations {
   /// **'Try selecting a different time range to see your stats'**
   String get tryDifferentTimeRangeStats;
 
-  /// Stats first-time user empty state subtitle
+  /// Empty state subtitle for stats page when no matches
   ///
   /// In en, this message translates to:
-  /// **'Add matches to start seeing your performance statistics'**
+  /// **'Add some matches to see your stats'**
   String get addMatchesToSeeStats;
 
   /// Number of matches text
@@ -448,6 +448,12 @@ abstract class AppLocalizations {
   /// **'Results Distribution'**
   String get resultsDistribution;
 
+  /// Match types breakdown widget title
+  ///
+  /// In en, this message translates to:
+  /// **'Match Types'**
+  String get matchTypesBreakdown;
+
   /// Wins label in stats
   ///
   /// In en, this message translates to:
@@ -538,10 +544,10 @@ abstract class AppLocalizations {
   /// **'1 match played'**
   String get oneMatchPlayed;
 
-  /// Victory outcome text
+  /// Single victory text
   ///
   /// In en, this message translates to:
-  /// **'Victory'**
+  /// **'victory'**
   String get victory;
 
   /// Multiple victories text
@@ -550,10 +556,10 @@ abstract class AppLocalizations {
   /// **'victories'**
   String get victories;
 
-  /// Defeat outcome text
+  /// Single defeat text
   ///
   /// In en, this message translates to:
-  /// **'Defeat'**
+  /// **'defeat'**
   String get defeat;
 
   /// Multiple defeats text
@@ -987,6 +993,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'How did you feel about your performance in this match?'**
   String get performanceRatingHelper;
+
+  /// Pluralized matches count text
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{1 match} other{{count} matches}}'**
+  String matchesPlural(int count);
 }
 
 class _AppLocalizationsDelegate

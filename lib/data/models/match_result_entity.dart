@@ -1,6 +1,6 @@
 import 'package:hive/hive.dart';
-import 'package:padel_tracker/data/models/padel_set_entity.dart';
-import 'package:padel_tracker/domain/models/match_result.dart';
+import 'package:delyo/data/models/padel_set_entity.dart';
+import 'package:delyo/domain/models/match_result.dart';
 
 part 'match_result_entity.g.dart';
 

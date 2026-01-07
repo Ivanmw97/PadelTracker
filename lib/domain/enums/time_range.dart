@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:padel_tracker/l10n/app_localizations.dart';
+import 'package:delyo/l10n/app_localizations.dart';
 
 /// Time range enumeration for filtering matches
 /// Defines different time periods for filtering match data

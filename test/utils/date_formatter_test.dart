@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:padel_tracker/utils/date_formatter.dart';
+import 'package:delyo/utils/date_formatter.dart';
 
 void main() {
   group('DateFormatter', () {

@@ -9,7 +9,7 @@ class AppLocalizationsIt extends AppLocalizations {
   AppLocalizationsIt([String locale = 'it']) : super(locale);
 
   @override
-  String get appTitle => 'Padel Tracker';
+  String get appTitle => 'DelYo';
 
   @override
   String get homeTitle => 'Home';
@@ -191,6 +191,9 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get resultsDistribution => 'Distribuzione dei risultati';
+
+  @override
+  String get matchTypesBreakdown => 'Tipi di Partite';
 
   @override
   String get wins => 'Vittorie';
@@ -494,4 +497,15 @@ class AppLocalizationsIt extends AppLocalizations {
   @override
   String get performanceRatingHelper =>
       'Come ti sei sentito riguardo alla tua performance in questa partita?';
+
+  @override
+  String matchesPlural(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count partite',
+      one: '1 partita',
+    );
+    return '$_temp0';
+  }
 }

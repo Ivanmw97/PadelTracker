@@ -1,6 +1,6 @@
 {
   "@@locale": "en",
-  "appTitle": "Padel Tracker",
+  "appTitle": "DelYo",
   "@appTitle": {
     "description": "The title of the application"
   },
@@ -295,6 +295,11 @@
   "resultsDistribution": "Results Distribution",
   "@resultsDistribution": {
     "description": "Results distribution widget title"
+  },
+  
+  "matchTypesBreakdown": "Match Types",
+  "@matchTypesBreakdown": {
+    "description": "Match types breakdown widget title"
   },
   
   "wins": "Wins",
@@ -698,17 +703,6 @@
     "description": "Add match button text"
   },
 
-  "noMatchesInPeriod": "No matches in this period",
-  "@noMatchesInPeriod": {
-    "description": "Empty state title when no matches in selected time period"
-  },
-
-  "tryDifferentTimeRange": "Try selecting a different time range",
-  "@tryDifferentTimeRange": {
-    "description": "Empty state subtitle suggesting different time range"
-  },
-
-
   "noDataToShow": "No data to show",
   "@noDataToShow": {
     "description": "Empty state title when no stats data available"
@@ -749,11 +743,6 @@
     "description": "Stats first-time user empty state title"
   },
 
-  "addMatchesToSeeStats": "Add matches to start seeing your performance statistics",
-  "@addMatchesToSeeStats": {
-    "description": "Stats first-time user empty state subtitle"
-  },
-
   "noDataForThisPeriod": "No data for this period",
   "@noDataForThisPeriod": {
     "description": "Stats filtered empty state title"
@@ -782,21 +771,6 @@
   "tournament": "Tournament",
   "@tournament": {
     "description": "Tournament match type"
-  },
-
-  "victory": "Victory",
-  "@victory": {
-    "description": "Victory outcome text"
-  },
-
-  "defeat": "Defeat",
-  "@defeat": {
-    "description": "Defeat outcome text"
-  },
-
-  "draw": "Draw",
-  "@draw": {
-    "description": "Draw outcome text"
   },
 
   "straightSets": "Straight Sets",
@@ -862,5 +836,16 @@
   "performanceRatingHelper": "How did you feel about your performance in this match?",
   "@performanceRatingHelper": {
     "description": "Helper text for performance rating section"
+  },
+
+  "matchesPlural": "{count, plural, =1{1 match} other{{count} matches}}",
+  "@matchesPlural": {
+    "description": "Pluralized matches count text",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
   }
 }

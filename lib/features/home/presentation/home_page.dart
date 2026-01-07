@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:padel_tracker/features/matches/state/matches_provider.dart';
-import 'package:padel_tracker/features/shared/state/filtered_matches_provider.dart';
-import 'package:padel_tracker/features/shared/widgets/time_range_filter.dart';
-import 'package:padel_tracker/features/matches/presentation/models/match_outcome.dart';
-import 'package:padel_tracker/features/matches/presentation/utils/match_outcome_helper.dart';
-import 'package:padel_tracker/features/home/presentation/widgets/performance_block_widget.dart';
-import 'package:padel_tracker/features/home/presentation/widgets/last_match_block_widget.dart';
-import 'package:padel_tracker/features/home/presentation/widgets/duration_card_widget.dart';
-import 'package:padel_tracker/features/home/presentation/widgets/location_card_widget.dart';
-import 'package:padel_tracker/features/shared/widgets/empty_state_examples.dart';
-import 'package:padel_tracker/features/matches/presentation/pages/add_match_page.dart';
-import 'package:padel_tracker/l10n/app_localizations.dart';
+import 'package:delyo/features/matches/state/matches_provider.dart';
+import 'package:delyo/features/shared/state/filtered_matches_provider.dart';
+import 'package:delyo/features/shared/widgets/time_range_filter.dart';
+import 'package:delyo/features/matches/presentation/models/match_outcome.dart';
+import 'package:delyo/features/matches/presentation/utils/match_outcome_helper.dart';
+import 'package:delyo/features/home/presentation/widgets/performance_block_widget.dart';
+import 'package:delyo/features/home/presentation/widgets/last_match_block_widget.dart';
+import 'package:delyo/features/home/presentation/widgets/duration_card_widget.dart';
+import 'package:delyo/features/home/presentation/widgets/location_card_widget.dart';
+import 'package:delyo/features/shared/widgets/empty_state_examples.dart';
+import 'package:delyo/features/matches/presentation/pages/add_match_page.dart';
+import 'package:delyo/l10n/app_localizations.dart';
 
 class HomePage extends ConsumerStatefulWidget {
   const HomePage({super.key});
@@ -212,7 +212,7 @@ class _HomePageState extends ConsumerState<HomePage> {
               const TimeRangeFilter(),
               const Spacer(),
               Text(
-                '${matches.length} matches',
+                AppLocalizations.of(context)!.matchesPlural(matches.length),
                 style: TextStyle(
                   fontSize: 14,
                   color: const Color(0xFF1D1D1F).withValues(alpha: 0.6),
@@ -237,18 +237,29 @@ class _HomePageState extends ConsumerState<HomePage> {
               match: lastMatch,
               buildSetScores: _buildSetScores,
             ),
-            const SizedBox(height: 20),
-            Row(
-              children: [
-                Expanded(
-                  child: DurationCardWidget(duration: lastMatch.duration),
-                ),
-                const SizedBox(width: 16),
-                Expanded(
-                  child: LocationCardWidget(location: lastMatch.location),
-                ),
-              ],
-            ),
+            // Only show details if at least one of duration or location is present
+            if (lastMatch.duration != null ||
+                (lastMatch.location != null &&
+                    lastMatch.location!.isNotEmpty)) ...[
+              const SizedBox(height: 20),
+              Row(
+                children: [
+                  if (lastMatch.duration != null) ...[
+                    Expanded(
+                      child: DurationCardWidget(duration: lastMatch.duration),
+                    ),
+                    if (lastMatch.location != null &&
+                        lastMatch.location!.isNotEmpty)
+                      const SizedBox(width: 16),
+                  ],
+                  if (lastMatch.location != null &&
+                      lastMatch.location!.isNotEmpty)
+                    Expanded(
+                      child: LocationCardWidget(location: lastMatch.location),
+                    ),
+                ],
+              ),
+            ],
           ],
         ],
       ),

@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:padel_tracker/domain/enums/time_range.dart';
+import 'package:delyo/domain/enums/time_range.dart';
 
 /// Global time range filter provider
 ///

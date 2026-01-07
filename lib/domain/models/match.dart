@@ -1,7 +1,7 @@
-import 'package:padel_tracker/domain/enums/match_type.dart';
-import 'package:padel_tracker/domain/enums/playing_side.dart';
-import 'package:padel_tracker/domain/models/match_result.dart';
-import 'package:padel_tracker/domain/models/player.dart';
+import 'package:delyo/domain/enums/match_type.dart';
+import 'package:delyo/domain/enums/playing_side.dart';
+import 'package:delyo/domain/models/match_result.dart';
+import 'package:delyo/domain/models/player.dart';
 
 /// Match entity
 /// Represents a single padel match with all its details:

@@ -1,9 +1,9 @@
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:padel_tracker/data/hive/hive_boxes.dart';
-import 'package:padel_tracker/data/models/match_entity.dart';
-import 'package:padel_tracker/data/models/match_result_entity.dart';
-import 'package:padel_tracker/data/models/padel_set_entity.dart';
-import 'package:padel_tracker/data/models/player_entity.dart';
+import 'package:delyo/data/hive/hive_boxes.dart';
+import 'package:delyo/data/models/match_entity.dart';
+import 'package:delyo/data/models/match_result_entity.dart';
+import 'package:delyo/data/models/padel_set_entity.dart';
+import 'package:delyo/data/models/player_entity.dart';
 
 /// IMPORTANT:
 /// Hive typeIds must NEVER be changed once released.

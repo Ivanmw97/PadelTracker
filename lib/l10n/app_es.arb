@@ -1,6 +1,6 @@
 {
   "@@locale": "es",
-  "appTitle": "Padel Tracker",
+  "appTitle": "DelYo",
   "@appTitle": {
     "description": "The title of the application"
   },
@@ -295,6 +295,11 @@
   "resultsDistribution": "Distribución de Resultados",
   "@resultsDistribution": {
     "description": "Results distribution widget title"
+  },
+  
+  "matchTypesBreakdown": "Tipos de Partidos",
+  "@matchTypesBreakdown": {
+    "description": "Match types breakdown widget title"
   },
   
   "wins": "Victorias",
@@ -698,17 +703,6 @@
     "description": "Add match button text"
   },
 
-  "noMatchesInPeriod": "No hay partidos en este periodo",
-  "@noMatchesInPeriod": {
-    "description": "Empty state title when no matches in selected time period"
-  },
-
-  "tryDifferentTimeRange": "Prueba seleccionando un rango de tiempo diferente",
-  "@tryDifferentTimeRange": {
-    "description": "Empty state subtitle suggesting different time range"
-  },
-
-
   "noDataToShow": "No hay datos para mostrar",
   "@noDataToShow": {
     "description": "Empty state title when no stats data available"
@@ -749,11 +743,6 @@
     "description": "Stats first-time user empty state title"
   },
 
-  "addMatchesToSeeStats": "Añade partidos para empezar a ver tus estadísticas de rendimiento",
-  "@addMatchesToSeeStats": {
-    "description": "Stats first-time user empty state subtitle"
-  },
-
   "noDataForThisPeriod": "No hay datos para este periodo",
   "@noDataForThisPeriod": {
     "description": "Stats filtered empty state title"
@@ -784,22 +773,7 @@
     "description": "Tournament match type"
   },
 
-  "victory": "Victoria",
-  "@victory": {
-    "description": "Victory outcome text"
-  },
-
-  "defeat": "Derrota",
-  "@defeat": {
-    "description": "Defeat outcome text"
-  },
-
-  "draw": "Empate",
-  "@draw": {
-    "description": "Draw outcome text"
-  },
-
-  "straightSets": "Sets corridos",
+  "straightSets": "Marcador",
   "@straightSets": {
     "description": "Straight sets text"
   },
@@ -862,5 +836,16 @@
   "performanceRatingHelper": "¿Cómo sentiste tu nivel en este partido?",
   "@performanceRatingHelper": {
     "description": "Helper text for performance rating section"
+  },
+
+  "matchesPlural": "{count, plural, =1{1 partido} other{{count} partidos}}",
+  "@matchesPlural": {
+    "description": "Pluralized matches count text",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:padel_tracker/domain/enums/match_type.dart';
+import 'package:delyo/domain/enums/match_type.dart';
+import 'package:delyo/l10n/app_localizations.dart';
 
 class MatchTypesBreakdownWidget extends StatelessWidget {
   final List matches;
@@ -34,7 +35,7 @@ class MatchTypesBreakdownWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'Match Types',
+            AppLocalizations.of(context)!.matchTypesBreakdown,
             style: TextStyle(
               fontSize: 12,
               fontWeight: FontWeight.w600,
@@ -45,16 +46,21 @@ class MatchTypesBreakdownWidget extends StatelessWidget {
           const SizedBox(height: 16),
 
           _buildMatchTypeBar(
-            'Friendly',
+            AppLocalizations.of(context)!.friendly,
             friendly,
             total,
             const Color(0xFF007AFF),
           ),
           const SizedBox(height: 12),
-          _buildMatchTypeBar('League', league, total, const Color(0xFFFF9500)),
+          _buildMatchTypeBar(
+            AppLocalizations.of(context)!.league,
+            league,
+            total,
+            const Color(0xFFFF9500),
+          ),
           const SizedBox(height: 12),
           _buildMatchTypeBar(
-            'Tournament',
+            AppLocalizations.of(context)!.tournament,
             tournament,
             total,
             const Color(0xFF5856D6),

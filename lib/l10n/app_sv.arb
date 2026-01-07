@@ -1,6 +1,6 @@
 {
   "@@locale": "sv",
-  "appTitle": "Padel Tracker",
+  "appTitle": "DelYo",
   "@appTitle": {
     "description": "The title of the application"
   },
@@ -160,11 +160,6 @@
     "description": "Loss outcome text"
   },
   
-  "draw": "Oavgjort",
-  "@draw": {
-    "description": "Draw outcome text"
-  },
-  
   "noMatchesYet": "Inga matcher än",
   "@noMatchesYet": {
     "description": "Empty state message when no matches exist"
@@ -175,16 +170,6 @@
     "description": "Empty state subtitle for home page"
   },
   
-  "noMatchesInPeriod": "Inga matcher under denna period",
-  "@noMatchesInPeriod": {
-    "description": "Empty state message when no matches in selected time range"
-  },
-  
-  "tryDifferentTimeRange": "Prova att välja en annan tidsperiod",
-  "@tryDifferentTimeRange": {
-    "description": "Empty state subtitle for filtered results"
-  },
-  
   "tapToAddFirstMatch": "Tryck + för att lägga till din första match",
   "@tapToAddFirstMatch": {
     "description": "Empty state subtitle when no matches exist"
@@ -193,11 +178,6 @@
   "tryDifferentTimeRangeStats": "Prova att välja en annan tidsperiod för att se din statistik",
   "@tryDifferentTimeRangeStats": {
     "description": "Empty state subtitle for stats page"
-  },
-  
-  "addMatchesToSeeStats": "Lägg till några matcher för att se din statistik",
-  "@addMatchesToSeeStats": {
-    "description": "Empty state subtitle for stats page when no matches"
   },
   
   "matchesCount": "{count} matcher",
@@ -297,6 +277,11 @@
     "description": "Results distribution widget title"
   },
   
+  "matchTypesBreakdown": "Matchtyper",
+  "@matchTypesBreakdown": {
+    "description": "Match types breakdown widget title"
+  },
+  
   "wins": "Vinster",
   "@wins": {
     "description": "Wins label in stats"
@@ -372,19 +357,9 @@
     "description": "Performance message for single match"
   },
 
-  "victory": "vinst",
-  "@victory": {
-    "description": "Single victory text"
-  },
-
   "victories": "vinster",
   "@victories": {
     "description": "Multiple victories text"
-  },
-
-  "defeat": "förlust",
-  "@defeat": {
-    "description": "Single defeat text"
   },
 
   "defeats": "förluster",
@@ -862,5 +837,16 @@
   "performanceRatingHelper": "Hur kände du dig om din prestation i denna match?",
   "@performanceRatingHelper": {
     "description": "Helper text for performance rating section"
+  },
+
+  "matchesPlural": "{count, plural, =1{1 match} other{{count} matcher}}",
+  "@matchesPlural": {
+    "description": "Pluralized matches count text",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
   }
 }

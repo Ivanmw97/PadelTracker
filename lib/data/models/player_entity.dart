@@ -1,5 +1,5 @@
 import 'package:hive/hive.dart';
-import 'package:padel_tracker/domain/models/player.dart';
+import 'package:delyo/domain/models/player.dart';
 
 part 'player_entity.g.dart';
 

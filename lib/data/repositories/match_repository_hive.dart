@@ -1,7 +1,7 @@
-import 'package:padel_tracker/data/hive/hive_boxes.dart';
-import 'package:padel_tracker/data/models/match_entity.dart';
-import 'package:padel_tracker/domain/models/match.dart';
-import 'package:padel_tracker/domain/repositories/match_repository.dart';
+import 'package:delyo/data/hive/hive_boxes.dart';
+import 'package:delyo/data/models/match_entity.dart';
+import 'package:delyo/domain/models/match.dart';
+import 'package:delyo/domain/repositories/match_repository.dart';
 
 /// Hive-based implementation of [MatchRepository]
 ///
